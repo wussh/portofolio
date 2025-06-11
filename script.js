@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     // Add animation to elements when they come into view
-    const animateElements = document.querySelectorAll('.experience-item, .skill-category, .education-item, .contact-item');
+    const animateElements = document.querySelectorAll('.portfolio-item, .experience-item, .skill-category, .education-item, .contact-item');
     
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {

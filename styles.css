@@ -127,7 +127,7 @@ nav {
     height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+    background: linear-gradient(135deg, var(--primary-color), #051b3b);
     background-size: cover;
     background-position: center;
     color: white;
@@ -330,11 +330,11 @@ footer {
     }
 }
 
-.experience-item, .skill-category, .education-item, .contact-item {
+.portfolio-item, .experience-item, .skill-category, .education-item, .contact-item {
     opacity: 0;
 }
 
-.experience-item.animate, .skill-category.animate, .education-item.animate, .contact-item.animate {
+.portfolio-item.animate, .experience-item.animate, .skill-category.animate, .education-item.animate, .contact-item.animate {
     animation: fadeIn 0.6s ease forwards;
 }
 
@@ -421,4 +421,181 @@ header.scrolled {
     .contact-info {
         grid-template-columns: 1fr;
     }
+}
+
+/* Portfolio Section */
+#portfolio {
+    background-color: white;
+}
+
+.portfolio-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.portfolio-item {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.portfolio-header h3 {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.portfolio-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 12px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+
+.portfolio-link i {
+    margin-right: 5px;
+}
+
+.portfolio-link:hover {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.portfolio-section {
+    margin-bottom: 20px;
+}
+
+.portfolio-section h4 {
+    color: var(--secondary-color);
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.portfolio-section p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.portfolio-list {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.portfolio-list li {
+    margin-bottom: 8px;
+    position: relative;
+    list-style-type: disc;
+    line-height: 1.5;
+}
+
+.portfolio-tech-container {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-color);
+}
+
+.portfolio-tech-label {
+    font-weight: 600;
+    color: var(--secondary-color);
+    margin-right: 15px;
+}
+
+.portfolio-tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tech-tag {
+    background-color: var(--light-color);
+    color: var(--primary-color);
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+/* Media queries for portfolio section */
+@media screen and (max-width: 768px) {
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .portfolio-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .portfolio-link {
+        margin-top: 10px;
+    }
+    
+    .portfolio-tech-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .portfolio-tech-label {
+        margin-bottom: 10px;
+    }
+}
+
+/* Code styling */
+code {
+    background-color: rgba(0,0,0,0.05);
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    font-size: 0.9em;
+}
+
+.portfolio-code {
+    background-color: var(--light-color);
+    padding: 15px;
+    border-radius: 6px;
+    margin: 15px 0;
+    overflow-x: auto;
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+}
+
+.portfolio-code pre {
+    margin: 0;
+}
+
+.portfolio-code code {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--dark-color);
 } 
