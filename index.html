@@ -69,27 +69,28 @@
                     <div class="portfolio-content">
                         <div class="portfolio-section">
                             <h4>Project Description</h4>
-                            <p>A comprehensive infrastructure as code solution for deploying a lightweight Kubernetes (K3s) cluster on Azure using Terraform, featuring Istio service mesh integration, automated networking, security configurations, and observability tools.</p>
+                            <p>A comprehensive infrastructure as code solution for deploying a lightweight Kubernetes (K3s) cluster on Azure using Terraform, featuring automated networking, security configurations, and support for Istio service mesh integration.</p>
                         </div>
                         
                         <div class="portfolio-grid">
                             <div class="portfolio-section">
                                 <h4>Goals</h4>
                                 <ul class="portfolio-list">
-                                    <li>Replace NGINX ingress with Istio for enhanced traffic control</li>
-                                    <li>Automate Kubernetes and cloud resource provisioning</li>
-                                    <li>Establish full-stack observability and tracing</li>
-                                    <li>Streamline CI/CD workflows</li>
+                                    <li>Azure Resource Group, VNet & Subnets</li>
+                                    <li>Network Security Groups with K3s rules</li>
+                                    <li>Azure Load Balancer (L4) with public IP</li>
+                                    <li>Linux VMs (Master & Worker nodes)</li>
+                                    <li>Automated SSH key generation</li>
                                 </ul>
                             </div>
                             
                             <div class="portfolio-section">
                                 <h4>Challenges</h4>
                                 <ul class="portfolio-list">
-                                    <li>Legacy NGINX Ingress limitations</li>
-                                    <li>Manual deployment inconsistencies</li>
-                                    <li>No mTLS or IAM policies</li>
-                                    <li>Limited monitoring capabilities</li>
+                                    <li>Secure cluster communication setup</li>
+                                    <li>Network security rule configuration</li>
+                                    <li>Integrating Istio with Traefik ingress</li>
+                                    <li>Automating infrastructure provisioning</li>
                                 </ul>
                             </div>
                         </div>
@@ -98,20 +99,20 @@
                             <div class="portfolio-section">
                                 <h4>Solution</h4>
                                 <ul class="portfolio-list">
-                                    <li>Istio deployment with auto sidecar injection</li>
-                                    <li>Terraform for infrastructure automation</li>
-                                    <li>Advanced traffic management with Istio Gateways</li>
-                                    <li>Comprehensive security with mTLS and RBAC</li>
+                                    <li>Modular Terraform configuration</li>
+                                    <li>GitOps integration with Flux CD</li>
+                                    <li>Advanced traffic management with Istio</li>
+                                    <li>Comprehensive security with mTLS</li>
                                 </ul>
                             </div>
                             
                             <div class="portfolio-section">
                                 <h4>Results & Benefits</h4>
                                 <ul class="portfolio-list">
-                                    <li>Zero-trust model with mTLS and IAM</li>
-                                    <li>Automated CI/CD pipelines</li>
-                                    <li>Enhanced traffic control and reliability</li>
-                                    <li>Improved observability and monitoring</li>
+                                    <li>Fully automated infrastructure deployment</li>
+                                    <li>Secure cluster with proper NSG rules</li>
+                                    <li>Enhanced traffic control with Istio Gateway</li>
+                                    <li>Simplified K3s installation process</li>
                                 </ul>
                             </div>
                         </div>
@@ -123,10 +124,10 @@
                                 <span class="tech-tag">Azure</span>
                                 <span class="tech-tag">K3s</span>
                                 <span class="tech-tag">Istio</span>
-                                <span class="tech-tag">Prometheus</span>
-                                <span class="tech-tag">Grafana</span>
-                                <span class="tech-tag">Jaeger</span>
-                                <span class="tech-tag">GitHub Actions</span>
+                                <span class="tech-tag">Flux CD</span>
+                                <span class="tech-tag">Traefik</span>
+                                <span class="tech-tag">Linux</span>
+                                <span class="tech-tag">GitOps</span>
                             </div>
                         </div>
                     </div>
@@ -182,7 +183,7 @@
                             <div class="portfolio-section">
                                 <h4>Results & Benefits</h4>
                                 <ul class="portfolio-list">
-                                    <li>Deployment time reduced by 90%</li>
+                                    <li>Deployment time reduced</li>
                                     <li>Zero manual intervention needed</li>
                                     <li>Enhanced security and reliability</li>
                                     <li>Comprehensive logging for troubleshooting</li>
@@ -253,7 +254,7 @@
                             <div class="portfolio-section">
                                 <h4>Results & Benefits</h4>
                                 <ul class="portfolio-list">
-                                    <li>Reduced deployment errors by 95%</li>
+                                    <li>Reduced deployment errors</li>
                                     <li>Accelerated release cycles</li>
                                     <li>Improved code quality</li>
                                     <li>Enhanced developer productivity</li>
@@ -277,7 +278,7 @@
 
                 <div class="portfolio-item">
                     <div class="portfolio-header">
-                        <h3>Kubernetes Cluster Setup</h3>
+                        <h3>Kubernetes Cluster GCP Setup</h3>
                         <a href="https://github.com/wussh/argocd" target="_blank" class="portfolio-link">
                             <i class="fab fa-github"></i> View on GitHub
                         </a>
@@ -286,7 +287,7 @@
                     <div class="portfolio-content">
                         <div class="portfolio-section">
                             <h4>Project Description</h4>
-                            <p>A comprehensive implementation of a Kubernetes cluster with NGINX Ingress Controller, Cert-Manager, and Argo CD using Helm, providing a robust foundation for GitOps-based deployments and automated certificate management.</p>
+                            <p>A comprehensive implementation of a Kubernetes cluster on Google Cloud Platform with NGINX Ingress Controller, Cert-Manager, and Argo CD using Helm, providing a robust foundation for GitOps-based deployments and automated certificate management.</p>
                         </div>
                         
                         <div class="portfolio-grid">
