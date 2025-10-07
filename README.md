@@ -147,17 +147,66 @@ export const metadata: Metadata = {
 
 ## 🚀 Deployment
 
-### Vercel (Recommended)
+### Docker Deployment
+
+#### Build and Run with Docker
+```bash
+# Build the Docker image
+npm run docker:build
+
+# Run the container
+npm run docker:run
+
+# Or use Docker Compose
+npm run docker:compose:up
+```
+
+#### Manual Docker Commands
+```bash
+# Build image
+docker build -t portfolio-nextjs:latest .
+
+# Run container
+docker run -d -p 3000:3000 --name portfolio-app portfolio-nextjs:latest
+
+# View logs
+docker logs portfolio-app
+
+# Stop container
+docker stop portfolio-app
+
+# Remove container
+docker rm portfolio-app
+```
+
+#### Docker Compose
+```bash
+# Start services
+docker-compose up -d
+
+# Stop services
+docker-compose down
+
+# View logs
+docker-compose logs -f
+```
+
+### Cloud Platforms
+
+#### Vercel (Recommended)
 1. Push your code to GitHub
 2. Connect your repository to Vercel
 3. Deploy automatically
 
-### Other Platforms
+#### Other Platforms
 The app can be deployed to any platform that supports Next.js:
 - Netlify
 - AWS Amplify
 - Railway
 - DigitalOcean App Platform
+- Google Cloud Run
+- AWS ECS/Fargate
+- Azure Container Instances
 
 ### Build for Production
 ```bash
@@ -193,6 +242,15 @@ The portfolio is fully responsive with breakpoints:
 - `npm run start` - Start production server
 - `npm run lint` - Run ESLint
 - `npm run type-check` - Run TypeScript type checking
+
+### Docker Scripts
+- `npm run docker:build` - Build Docker image
+- `npm run docker:run` - Run Docker container
+- `npm run docker:stop` - Stop Docker container
+- `npm run docker:rm` - Remove Docker container
+- `npm run docker:logs` - View Docker container logs
+- `npm run docker:compose:up` - Start with Docker Compose
+- `npm run docker:compose:down` - Stop Docker Compose services
 
 ### Code Quality
 - **ESLint** - Code linting

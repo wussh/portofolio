@@ -7,7 +7,14 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "docker:build": "docker build -t portfolio-nextjs:latest .",
+    "docker:run": "docker run -d -p 3000:3000 --name portfolio-app portfolio-nextjs:latest",
+    "docker:stop": "docker stop portfolio-app",
+    "docker:rm": "docker rm portfolio-app",
+    "docker:logs": "docker logs portfolio-app",
+    "docker:compose:up": "docker-compose up -d",
+    "docker:compose:down": "docker-compose down"
   },
   "dependencies": {
     "next": "14.0.4",
