@@ -4,8 +4,13 @@ import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
+// Get environment variables with fallbacks
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://daudherlangga.dev'
+const siteName = process.env.NEXT_PUBLIC_SITE_NAME || 'Daud Herlangga Andrianata - DevOps Engineer'
+const contactEmail = process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'andrianta.321@gmail.com'
+
 export const metadata: Metadata = {
-  title: 'Daud Herlangga Andrianata - DevOps Engineer',
+  title: siteName,
   description: 'Experienced DevOps Engineer with expertise in CI/CD pipelines, containerization, cloud infrastructure, Docker, Kubernetes, Jenkins, and monitoring solutions.',
   keywords: ['DevOps', 'Kubernetes', 'Docker', 'CI/CD', 'Cloud Infrastructure', 'Automation', 'Terraform', 'AWS', 'Azure', 'GCP'],
   authors: [{ name: 'Daud Herlangga Andrianata' }],
@@ -16,14 +21,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://daudherlangga.dev'),
+  metadataBase: new URL(siteUrl),
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: 'Daud Herlangga Andrianata - DevOps Engineer',
+    title: siteName,
     description: 'Experienced DevOps Engineer with expertise in CI/CD pipelines, containerization, and cloud infrastructure.',
-    url: 'https://daudherlangga.dev',
+    url: siteUrl,
     siteName: 'Daud Herlangga Andrianata Portfolio',
     images: [
       {
@@ -38,7 +43,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Daud Herlangga Andrianata - DevOps Engineer',
+    title: siteName,
     description: 'Experienced DevOps Engineer with expertise in CI/CD pipelines, containerization, and cloud infrastructure.',
     images: ['/og-image.jpg'],
   },

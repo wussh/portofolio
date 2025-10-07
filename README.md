@@ -82,14 +82,21 @@ portfolio-nextjs/
    yarn install
    ```
 
-3. **Run the development server**
+3. **Set up environment variables**
+   ```bash
+   npm run setup-env
+   # or manually copy env.example to .env.local
+   cp env.example .env.local
+   ```
+
+4. **Run the development server**
    ```bash
    npm run dev
    # or
    yarn dev
    ```
 
-4. **Open your browser**
+5. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
 ## 🎨 Customization
@@ -134,16 +141,29 @@ export const portfolioItems: PortfolioItem[] = [
 - **Fonts**: Change fonts in `app/globals.css`
 - **Animations**: Customize animations in `tailwind.config.js`
 
-### SEO & Metadata
-Update metadata in `app/layout.tsx`:
+### Environment Variables
+Configure your environment in the `.env.local` file:
 
-```typescript
-export const metadata: Metadata = {
-  title: 'Your Name - Your Title',
-  description: 'Your description...',
-  // ... other metadata
-}
+```bash
+# Site Configuration
+NEXT_PUBLIC_SITE_URL=http://localhost:3000
+NEXT_PUBLIC_SITE_NAME="Your Name - Your Title"
+NEXT_PUBLIC_CONTACT_EMAIL=your.email@example.com
 ```
+
+For production, update `.env.production`:
+```bash
+NEXT_PUBLIC_SITE_URL=https://your-domain.com
+NEXT_PUBLIC_SITE_NAME="Your Name - Your Title"
+NEXT_PUBLIC_CONTACT_EMAIL=your.email@example.com
+```
+
+### SEO & Metadata
+The metadata is automatically generated from environment variables in `app/layout.tsx`. Update your environment variables to change:
+- Site title
+- Site URL
+- Contact email
+- And other metadata
 
 ## 🚀 Deployment
 
