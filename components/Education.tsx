@@ -110,7 +110,7 @@ export default function Education() {
             >
               <div className="text-center p-6 bg-gray-50 rounded-xl border border-gray-200">
                 <div className="w-12 h-12 bg-primary-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-white font-bold text-lg">5+</span>
+                  <span className="text-white font-bold text-lg">2+</span>
                 </div>
                 <h4 className="font-semibold text-primary-900 mb-2">Bootcamps Completed</h4>
                 <p className="text-sm text-gray-600">DevOps & Backend Development</p>

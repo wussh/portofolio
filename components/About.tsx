@@ -66,7 +66,7 @@ export default function About() {
             >
               <div className="text-center p-6 bg-primary-50 rounded-xl border border-primary-100">
                 <div className="w-12 h-12 bg-primary-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-white font-bold text-lg">5+</span>
+                  <span className="text-white font-bold text-lg">2+</span>
                 </div>
                 <h3 className="font-semibold text-primary-900 mb-2">Years Experience</h3>
                 <p className="text-sm text-primary-700">DevOps & Cloud Infrastructure</p>
