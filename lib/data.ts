@@ -392,6 +392,40 @@ export const portfolioItems: PortfolioItem[] = [
       "Improved developer experience"
     ],
     technologies: ["Helm", "Kubernetes", "YAML", "Ingress", "Deployment", "Service"]
+  },
+  {
+    id: "9",
+    title: "BotWA - Advanced AI WhatsApp Bot",
+    description: "An intelligent, emotionally-aware WhatsApp bot powered by multiple AI models with advanced memory systems, personality adaptation, and natural conversation abilities. Features multi-model intelligence with automatic fallback, sophisticated memory management (SQLite/MongoDB/JSON), and dynamic personality traits that evolve based on conversations.",
+    githubUrl: "https://github.com/wussh/botwa",
+    goals: [
+      "Create human-like conversational AI for WhatsApp",
+      "Implement multi-model AI with intelligent routing",
+      "Build sophisticated memory system with multiple storage options",
+      "Develop adaptive personality and emotional intelligence"
+    ],
+    challenges: [
+      "Managing multiple AI models with fallback mechanisms",
+      "Implementing complex memory systems (short-term, long-term, semantic)",
+      "Creating natural human-like behavior with typing delays",
+      "Handling bilingual conversations (English & Indonesian)",
+      "Ensuring reliability with auto-reconnect and error recovery"
+    ],
+    solution: [
+      "Intent-based AI model routing with emotion detection",
+      "Multi-layer memory system with SQLite/MongoDB support",
+      "Vector embeddings for semantic memory recall",
+      "Dynamic typing delays and presence updates for natural behavior",
+      "Comprehensive fallback chains and gibberish detection"
+    ],
+    results: [
+      "Successfully handles emotional and technical conversations",
+      "Maintains conversation context across sessions",
+      "Adapts personality based on user interaction patterns",
+      "Achieves human-like response timing and behavior",
+      "Supports 1800+ lines of sophisticated AI logic"
+    ],
+    technologies: ["Node.js", "JavaScript", "Baileys", "Ollama AI", "SQLite", "MongoDB", "Docker", "Natural Language Processing", "Vector Embeddings", "Pino"]
   }
 ];
 
