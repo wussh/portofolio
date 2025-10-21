@@ -1,5 +1,6 @@
 FROM node:18-alpine AS builder
 WORKDIR /app
+RUN mkdir -p ./public
 COPY package*.json ./
 RUN npm install -f
 COPY . .
