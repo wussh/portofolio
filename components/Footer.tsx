@@ -23,7 +23,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-gray-400 leading-relaxed">
-              Passionate about building scalable, reliable, and efficient infrastructure solutions.
+              I love tech, and I build systems that think ahead — scalable, reliable, and crafted to support innovation without limits.
             </p>
           </div>
 
