@@ -5,6 +5,7 @@ export interface Experience {
   type: string;
   technologies: string[];
   achievements: string[];
+  period?: string;
 }
 
 export interface Skill {

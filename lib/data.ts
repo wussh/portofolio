@@ -17,29 +17,37 @@ export const experiences: Experience[] = [
     title: "DevOps Engineer",
     company: "Falah Inovasi Teknologi",
     type: "Fulltime",
-    technologies: ["Gitlab", "Baremetal", "Docker", "Kubernetes", "Grafana", "Ansible"],
+    technologies: ["GitLab", "Bare Metal", "Docker", "Kubernetes", "Grafana", "Ansible", "FluxCD", "Traefik"],
     achievements: [
-      "Managed bare metal server infrastructure for software development and simulation projects, improving scalability and efficiency.",
-      "Designed and implemented CI/CD pipelines for Unity-based applications, as well as frontend and backend services, leading to a 30% reduction in product release time and improved deployment reliability.",
-      "Implemented monitoring, logging, and alerting solutions using Prometheus, Grafana, Loki, and Alertmanager, proactively identifying system bottlenecks and reducing downtime by 20%.",
-      "Deployed and managed AI/ML models on Kubernetes, optimizing resource usage and ensuring high availability for inference services.",
-      "Adopted GitOps practices using GitLab and FluxCD to automate infrastructure provisioning and application deployments, ensuring consistency, traceability, and faster rollbacks."
-    ]
+      "Managed multiple bare-metal Kubernetes clusters for internal and client-facing applications (simulation systems, VR platforms, backend services, frontend), including provisioning, node maintenance, storage, networking, and upgrades.",
+      "Designed and maintained CI/CD pipelines (GitLab CI) for Unity-based applications, microservices, and frontend apps, resulting in faster and more consistent releases across development, staging, and production environments.",
+      "Implemented centralized monitoring, logging, and alerting using Prometheus, Grafana, Loki, and Alertmanager—enabling earlier detection of node failures, pod crashes, API latency spikes, and storage issues.",
+      "Deployed and operated AI/ML inference services (Ollama, LLMs, embedding services, OCR, etc.) on Kubernetes, optimizing GPU/CPU resource requests, autoscaling, and model loading time.",
+      "Applied GitOps with FluxCD to manage dozens of HelmRelease deployments, secrets, ingress configurations, and namespace-level applications—improving traceability and reducing configuration drift.",
+      "Automated cluster operations using Ansible (node setup, package installation, service configuration, firewall, Docker/Containerd setup) to standardize server initialization.",
+      "Implemented multi-tenant environment separation (per project/namespace) including Traefik ingress routing, TLS, PVC provisioning, and resource limits, increasing system stability in multi-project deployments.",
+      "Conducted troubleshooting and incident response for production systems (Docker issues, container runtime errors, broken ingress routes, PVC failures, and cluster networking issues).",
+      "Collaborated with development teams to optimize application containerization, reduce image size, and improve deployment reliability."
+    ],
+    period: "Sep 2024 - Nov 2025"
   },
   {
     id: "2",
     title: "DevOps Engineer",
     company: "Evermos",
     type: "Internship",
-    technologies: ["Jenkins", "AWS", "Docker", "Kubernetes", "Grafana", "Terraform"],
+    technologies: ["Jenkins", "AWS", "Docker", "Kubernetes (EKS)", "Grafana", "Terraform"],
     achievements: [
-      "Designed and implemented an automated deployment process for a new application, reducing deployment time from days to minutes.",
-      "Improved overall system performance by streamlining code deployment and implementing caching strategies, resulting in a 20% decrease in page load times.",
-      "Delved into the optimization of Jenkins pipelines, streamlining the development and deployment processes for enhanced productivity.",
-      "Implemented infrastructure as code with Terraform, reducing server setup time from hours to minutes.",
-      "Developed and maintained a robust monitoring and alerting system, proactively identifying and resolving issues before they impact end users.",
-      "Developed and implemented CI/CD pipelines, reducing deployment time by 50%."
-    ]
+      "Supported daily DevOps operations for a fast-paced e-commerce engineering team, focusing on improving deployment reliability across multiple microservices.",
+      "Built and maintained CI/CD pipelines using Jenkins (Freestyle & Declarative), enabling automated build–test–deploy flows for backend, frontend (Golang, Java) and mobile apps.",
+      "Containerized internal services using Docker and deployed them on Kubernetes (EKS), improving environment consistency and reducing deployment-related issues.",
+      "Assisted in managing AWS infrastructure (EC2, S3, RDS, IAM), including environment provisioning and cleanup for development and staging workloads.",
+      "Improved deployment speed by optimizing Jenkins stages, parallelizing jobs, and implementing image caching—cutting average deployment time by 30–40%.",
+      "Developed Terraform scripts to standardize provisioning of S3 buckets, IAM roles, and EKS worker node configurations, reducing manual setup time.",
+      "Worked closely with backend and QA teams to troubleshoot build failures, environment inconsistencies, and deployment rollbacks in staging.",
+      "Documented CI/CD pipelines, deployment steps, and infrastructure usage guidelines."
+    ],
+    period: "Mar 2024 - Aug 2024"
   },
   {
     id: "3",
@@ -53,7 +61,8 @@ export const experiences: Experience[] = [
       "Collaborated with fellow apprentices on real-world projects, fostering teamwork and enhancing problem-solving skills.",
       "Learned best practices for Infrastructure as Code (IaC) and cloud deployment, gaining proficiency in managing scalable and reliable cloud-based environments.",
       "Developed a deep understanding of containerization and orchestration technologies for efficient application deployment."
-    ]
+    ],
+    period: "Jun 2023 - Dec 2023"
   },
   {
     id: "4",
@@ -68,7 +77,8 @@ export const experiences: Experience[] = [
       "Demonstrated proficiency in scripting for automation and optimization purposes.",
       "Acquired hands-on experience in container orchestration and management.",
       "Applied security best practices to ensure robustness of deployed solutions."
-    ]
+    ],
+    period: "Nov 2022 - Jan 2023"
   },
   {
     id: "5",
@@ -83,7 +93,8 @@ export const experiences: Experience[] = [
       "Collaborated on hands-on projects, applying advanced Linux and Docker solutions.",
       "Acquired a deep understanding of system security and best practices for securing Linux environments.",
       "Developed proficiency in Linux shell scripting for automation and system optimization."
-    ]
+    ],
+    period: "Sep 2022 - Nov 2022"
   },
   {
     id: "6",
@@ -101,7 +112,8 @@ export const experiences: Experience[] = [
       "Gained experience in performance optimization, including identifying and addressing performance bottlenecks.",
       "Completed projects involving the deployment of Golang applications using Docker and cloud platforms.",
       "Acquired insights into industry best practices, scalability strategies, and emerging trends in Golang backend development."
-    ]
+    ],
+    period: "Feb 2022 - Jul 2022"
   }
 ];
 
