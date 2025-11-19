@@ -82,9 +82,16 @@ export default function Experience() {
                           <p className="text-lg font-semibold text-gray-700 mb-2">
                             {experience.company}
                           </p>
-                          <span className="inline-block px-3 py-1 bg-primary-100 text-primary-700 rounded-full text-sm font-medium">
-                            {experience.type}
-                          </span>
+                          <div className="flex flex-wrap items-center gap-3">
+                            <span className="inline-block px-3 py-1 bg-primary-100 text-primary-700 rounded-full text-sm font-medium">
+                              {experience.type}
+                            </span>
+                            {experience.period && (
+                              <span className="text-gray-600 text-sm font-medium">
+                                {experience.period}
+                              </span>
+                            )}
+                          </div>
                         </div>
                       </div>
 
