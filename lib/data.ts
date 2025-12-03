@@ -158,6 +158,37 @@ export const education: Education[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     id: "1",
+    title: "Database Backup Tools",
+    description: "A comprehensive suite of database backup tools supporting PostgreSQL, MySQL, MariaDB, and MongoDB with multiple backup methods. Features a professional-grade Go interactive tool with Clean Architecture principles and lightweight Bash scripts for flexible automation.",
+    githubUrl: "https://github.com/wussh/backup-tool",
+    goals: [
+      "Create unified backup solution for multiple databases",
+      "Implement Clean Architecture in Go tool",
+      "Provide both interactive and automated backup options",
+      "Support multiple compression formats and storage locations"
+    ],
+    challenges: [
+      "Supporting multiple database engines with different backup methods",
+      "Implementing Clean Architecture principles in Go",
+      "Managing concurrent backup operations safely",
+      "Handling database authentication and connection security"
+    ],
+    solution: [
+      "Go interactive tool with Clean Architecture (Domain, Use Case, Repository layers)",
+      "Bash scripts with configuration-based automation",
+      "Support for multiple compression formats (gzip, bzip2, xz)",
+      "Flexible backup destinations (local, remote, cloud-ready)"
+    ],
+    results: [
+      "Professional-grade backup tool with clean separation of concerns",
+      "Support for PostgreSQL, MySQL, MariaDB, and MongoDB",
+      "Interactive menu-driven interface for ease of use",
+      "Automated backup scheduling via Bash scripts and cron"
+    ],
+    technologies: ["Go", "Bash", "PostgreSQL", "MySQL", "MariaDB", "MongoDB", "Clean Architecture", "Shell Scripting", "Cron"]
+  },
+  {
+    id: "2",
     title: "Azure Kubeflow Deployment",
     description: "A comprehensive Terraform solution for deploying Kubeflow on Azure using a single Ubuntu VM, automating the setup of MicroK8s, Juju, and Kubeflow to create a complete machine learning platform ready for ML/AI workloads.",
     githubUrl: "https://github.com/wussh/azure-kubeflow-vm",
@@ -188,7 +219,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Terraform", "Azure", "Kubeflow", "MicroK8s", "Juju", "Kubernetes", "Shell Scripting", "ML/AI"]
   },
   {
-    id: "2",
+    id: "3",
     title: "Azure K3s Terraform Deployment",
     description: "A comprehensive infrastructure as code solution for deploying a lightweight Kubernetes (K3s) cluster on Azure using Terraform, featuring automated networking, security configurations, and support for Istio service mesh integration.",
     githubUrl: "https://github.com/wussh/terraform-azure-k3s-cluster",
@@ -220,7 +251,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Terraform", "Azure", "K3s", "Istio", "Flux CD", "Traefik", "Linux", "GitOps"]
   },
   {
-    id: "3",
+    id: "4",
     title: "SurfSense CI/CD",
     description: "A comprehensive CI/CD pipeline for automating deployments of SurfSense (an open-source alternative to NotebookLM/Perplexity) using GitHub Actions, Cloudflare Tunnel, and systemd services.",
     githubUrl: "https://github.com/wussh/SurfSense-ci-cd",
@@ -251,7 +282,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["GitHub Actions", "Cloudflare Tunnel", "SSH", "systemd", "Ubuntu"]
   },
   {
-    id: "4",
+    id: "5",
     title: "Fider CI/CD Pipeline",
     description: "A robust CI/CD pipeline for Fider, an open-source feedback platform, implementing automated build, test, and deployment workflows using Docker containers and GitHub Actions.",
     githubUrl: "https://github.com/wussh/fider-ci-cd",
@@ -282,7 +313,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["GitHub Actions", "Docker", "Go", "Node.js", "PostgreSQL", "SSH"]
   },
   {
-    id: "5",
+    id: "6",
     title: "Kubernetes Cluster GCP Setup",
     description: "A comprehensive implementation of a Kubernetes cluster on Google Cloud Platform with NGINX Ingress Controller, Cert-Manager, and Argo CD using Helm, providing a robust foundation for GitOps-based deployments and automated certificate management.",
     githubUrl: "https://github.com/wussh/argocd",
@@ -313,7 +344,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Kubernetes", "Argo CD", "NGINX Ingress", "Cert-Manager", "Helm", "Let's Encrypt"]
   },
   {
-    id: "6",
+    id: "7",
     title: "Terraform AWS EC2 Deployment",
     description: "An Infrastructure as Code (IaC) implementation using Terraform to automate the deployment of EC2 instances on AWS, complete with security configurations, SSH access setup, and proper IAM permissions management.",
     githubUrl: "https://github.com/wussh/terraform-aws",
@@ -344,7 +375,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Terraform", "AWS", "EC2", "IAM", "SSH", "Security Groups"]
   },
   {
-    id: "7",
+    id: "8",
     title: "FluxCD GitOps Implementation",
     description: "A comprehensive GitOps implementation using FluxCD to manage Kubernetes cluster configurations and deployments, with a well-structured repository design that promotes clarity, scalability, and maintainability.",
     githubUrl: "https://github.com/wussh/flux-new",
@@ -375,7 +406,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["FluxCD", "Kubernetes", "GitOps", "NGINX Ingress", "Cert-Manager", "Kustomize"]
   },
   {
-    id: "8",
+    id: "9",
     title: "Helm Chart for Backend Deployment",
     description: "A custom Helm chart designed for standardized backend application deployments in Kubernetes, providing templated configurations for deployments, services, and ingress resources with configurable parameters for different environments.",
     githubUrl: "https://github.com/wussh/backend-app",
@@ -406,7 +437,7 @@ export const portfolioItems: PortfolioItem[] = [
     technologies: ["Helm", "Kubernetes", "YAML", "Ingress", "Deployment", "Service"]
   },
   {
-    id: "9",
+    id: "10",
     title: "BotWA - Advanced AI WhatsApp Bot",
     description: "An intelligent, emotionally-aware WhatsApp bot powered by multiple AI models with advanced memory systems, personality adaptation, and natural conversation abilities. Features multi-model intelligence with automatic fallback, sophisticated memory management (SQLite/MongoDB/JSON), and dynamic personality traits that evolve based on conversations.",
     githubUrl: "https://github.com/wussh/botwa",
