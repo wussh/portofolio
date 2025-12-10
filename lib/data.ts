@@ -120,7 +120,7 @@ export const experiences: Experience[] = [
 export const skills: Skill[] = [
   {
     category: "Languages",
-    items: ["Golang", "Python", "YAML", "Bash/Shell"]
+    items: ["Golang", "Python", "YAML", "Bash/Shell", "Python", "Javascript", "Go"]
   },
   {
     category: "Dev Tools",
@@ -128,11 +128,11 @@ export const skills: Skill[] = [
   },
   {
     category: "Cloud/Databases",
-    items: ["AWS", "GCP", "Azure", "PostgreSQL", "MySQL", "MongoDB"]
+    items: ["AWS", "GCP", "Azure", "PostgreSQL", "MySQL", "MongoDB", "MinIO (Object Storage)"]
   },
   {
     category: "Monitoring/Deployment",
-    items: ["Grafana", "Prometheus", "Loki", "ELK Stack", "Jenkins", "GitOps", "Git"]
+    items: ["Grafana", "Prometheus", "Loki", "ELK Stack", "Jenkins", "GitOps", "Git", "Promtail", "Thanos", "Metric Server", "Blackbox Exporter", "OpenTelemetry (OTEL)", "Kube Event Exporter"]
   },
   {
     category: "Areas Of Interest",
@@ -141,6 +141,46 @@ export const skills: Skill[] = [
   {
     category: "Soft Skills",
     items: ["Problem-solving", "Self-learning", "Time Management", "Adaptability"]
+  },
+  {
+    category: "Infrastructure & Orchestration",
+    items: ["Kubernetes (K3s)", "FluxCD (GitOps)", "Helm", "Kustomize", "Docker", "GitLab", "GitHub"]
+  },
+  {
+    category: "Networking & Ingress",
+    items: ["Traefik", "Kong (API Gateway)", "NGINX"]
+  },
+  {
+    category: "Storage & Databases",
+    items: ["Longhorn (CSI Storage)", "PostgreSQL (via CloudNative PG)", "MongoDB", "MinIO (Object Storage)"]
+  },
+  {
+    category: "Monitoring & Observability",
+    items: ["Prometheus", "Grafana", "Loki", "Promtail", "Thanos", "Metric Server", "Blackbox Exporter", "OpenTelemetry (OTEL)", "Kube Event Exporter"]
+  },
+  {
+    category: "Security & Compliance",
+    items: ["Cert-Manager", "Crowdsec", "Gatekeeper", "Trivy Operator", "Keycloak"]
+  },
+  {
+    category: "CI/CD & Development Tools",
+    items: ["GitLab Runner", "Buildkit", "JupyterHub", "Portainer"]
+  },
+  {
+    category: "Additional Tools & Platforms",
+    items: ["Harbor (Container Registry)", "Chaos Mesh", "Cloudflare", "CronJob", "Homepage", "Infisical", "Kestra", "KubeVirt", "LiveKit", "Mosquitto (MQTT Broker)", "N8N", "Onyx", "Open WebUI", "PGBouncer", "Sentry", "Supabase", "Tailscale"]
+  },
+  {
+    category: "Programming Languages & Frameworks",
+    items: ["Python", "Javascript", "Go"]
+  },
+  {
+    category: "Protocols & Formats",
+    items: ["YAML", "JSON", "Protocol Buffers (gRPC)", "MQTT"]
+  },
+  {
+    category: "System Administration",
+    items: ["Bash", "Shell", "Linux"]
   }
 ];
 
