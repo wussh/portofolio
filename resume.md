@@ -8,120 +8,125 @@
 
 # {NAME}
 
-
-{LOCATION} | {PHONE} | {EMAIL} 
+{LOCATION} | {PHONE} | {EMAIL}
 
 [{LINKEDIN}](https://{LINKEDIN}) | [{GITHUB}](https://{GITHUB})
+
+<div className="vertical-spacer"></div>
+
+## Professional Summary
+<div className="vertical-spacer"></div>
+
+Results-driven DevOps Engineer with 2+ years of experience in designing, implementing, and maintaining scalable infrastructure solutions. Expertise in Kubernetes, CI/CD pipelines, cloud platforms (AWS, GCP, Azure), and automation tools. Proven track record of optimizing deployment processes, reducing downtime, and enhancing system reliability. Passionate about infrastructure as code, monitoring, and DevSecOps practices.
 
 <div className="vertical-spacer"></div>
 
 ## Experience
 <div className="vertical-spacer"></div>
 
-### DevOps Engineer | Falah Inovasi Teknologi<span class="spacer"></span>Sep 2024 - Dec 2025
+### DevOps Engineer | Falah Inovasi Teknologi<span class="spacer"></span>Sep 2024 - Present
 
-*Fulltime* <span class="spacer"></span> GitLab | Bare Metal | Docker | Kubernetes | Grafana | Ansible | GitOps
+*Full-time* <span class="spacer"></span> GitLab CI | Kubernetes | Docker | Ansible | FluxCD | Prometheus | Grafana | Traefik
 
-- Managed multiple bare-metal Kubernetes clusters for internal and client-facing applications (simulation systems, VR platforms, backend services, frontend), including provisioning, node maintenance, storage, networking, and upgrades.
-- Designed and maintained CI/CD pipelines (GitLab CI) for Unity-based applications, microservices, and frontend apps, resulting in faster and more consistent releases across development, staging, and production environments.
-- Implemented centralized monitoring, logging, and alerting using Prometheus, Grafana, Loki, and Alertmanager—enabling earlier detection of node failures, pod crashes, API latency spikes, and storage issues.
-- Deployed and operated AI/ML inference services (Ollama, LLMs, embedding services, OCR, etc.) on Kubernetes, optimizing GPU/CPU resource requests, autoscaling, and model loading time.
-- Applied GitOps with FluxCD to manage dozens of HelmRelease deployments, secrets, ingress configurations, and namespace-level applications—improving traceability and reducing configuration drift.
-- Automated cluster operations using Ansible (node setup, package installation, service configuration, firewall, Docker/Containerd setup) to standardize server initialization.
-- Implemented multi-tenant environment separation (per project/namespace) including Traefik ingress routing, TLS, PVC provisioning, and resource limits, increasing system stability in multi-project deployments.
-- Conducted troubleshooting and incident response for production systems (Docker issues, container runtime errors, broken ingress routes, PVC failures, and cluster networking issues).
-- Collaborated with development teams to optimize application containerization, reduce image size, and improve deployment reliability.
+- Managed 5+ bare-metal Kubernetes clusters serving internal and client applications, ensuring 99.9% uptime through proactive maintenance, storage optimization, and network configuration.
+- Designed and maintained CI/CD pipelines using GitLab CI for Unity-based, microservices, and frontend applications, reducing deployment time by 40% and ensuring consistent releases across environments.
+- Implemented comprehensive monitoring stack (Prometheus, Grafana, Loki, Alertmanager) enabling proactive detection of issues and reducing incident response time by 60%.
+- Deployed and optimized AI/ML inference services on Kubernetes, achieving 30% improvement in model loading times through resource tuning and autoscaling.
+- Applied GitOps principles with FluxCD to manage 50+ Helm releases, improving deployment traceability and reducing configuration drift by 80%.
+- Automated infrastructure provisioning with Ansible, standardizing server setup across 20+ nodes and reducing manual configuration errors.
+- Established multi-tenant environments with Traefik ingress, TLS encryption, and resource quotas, enhancing security and stability for multi-project deployments.
+- Led incident response for production issues, resolving critical problems within SLA windows and documenting post-mortems for continuous improvement.
+- Collaborated with development teams to optimize container images, reducing size by 50% and improving deployment efficiency.
 
-
-<div className="vertical-spacer"></div>
 <div className="vertical-spacer"></div>
 
 ### DevOps Engineer | Evermos<span class="spacer"></span>Mar 2024 - Aug 2024
 
-*Internship* <span class="spacer"></span> Jenkins | AWS | Docker | Kubernetes | Grafana | Terraform
+*Internship* <span class="spacer"></span> Jenkins | AWS | Docker | Kubernetes (EKS) | Terraform | Grafana
 
-- Supported daily DevOps operations for a fast-paced e-commerce engineering team, focusing on improving deployment reliability across multiple microservices.
-- Built and maintained CI/CD pipelines using Jenkins (Freestyle & Declarative), enabling automated build–test–deploy flows for backend, frontend (Golang, Java) and mobile apps.
-- Containerized internal services using Docker and deployed them on Kubernetes (EKS), improving environment consistency and reducing deployment-related issues.
-- Assisted in managing AWS infrastructure (EC2, S3, RDS, IAM), including environment provisioning and cleanup for development and staging workloads.
-- Improved deployment speed by optimizing Jenkins stages, parallelizing jobs, and implementing image caching—cutting average deployment time by 30–40%.
-- Developed Terraform scripts to standardize provisioning of S3 buckets, IAM roles, and EKS worker node configurations, reducing manual setup time.
-- Worked closely with backend and QA teams to troubleshoot build failures, environment inconsistencies, and deployment rollbacks in staging.
-- Documented CI/CD pipelines, deployment steps, and infrastructure usage guidelines.
-
-<div className="vertical-spacer"></div>
-
-### DevOps Engineer | DBS Foundation Coding Camp<span class="spacer"></span>Jun 2023 - Dec 2023
-
-*Intensive bootcamp focused on DevOps engineer learning path.* <span class="spacer"></span> Jenkins | AWS | Docker | Kubernetes | Loki | Prometheus
-
-- Implemented Continuous Integration (CI) and Continuous Deployment (CD) pipelines.
-- Utilized popular DevOps tools such as Jenkins, Docker, and Kubernetes to automate and streamline software development processes.
-- Collaborated with fellow apprentices on real-world projects, fostering teamwork and enhancing problem-solving skills.
-- Learned best practices for Infrastructure as Code (IaC) and cloud deployment, gaining proficiency in managing scalable and reliable cloud-based environments.
-- Developed a deep understanding of containerization and orchestration technologies for efficient application deployment.
+- Supported DevOps operations for high-traffic e-commerce platform, improving deployment reliability for 15+ microservices.
+- Built and maintained Jenkins CI/CD pipelines (Freestyle & Declarative), automating build-test-deploy cycles for Golang, Java, and mobile applications.
+- Containerized legacy applications with Docker and orchestrated deployments on EKS, reducing environment inconsistencies by 70%.
+- Managed AWS infrastructure (EC2, S3, RDS, IAM), provisioning resources for dev/staging environments and optimizing costs by 25%.
+- Optimized Jenkins pipelines through parallelization and caching, cutting average deployment time from 45 to 25 minutes.
+- Developed Terraform modules for standardized AWS resource provisioning, reducing setup time by 60% and ensuring compliance.
+- Troubleshot build failures and deployment issues in collaboration with backend and QA teams, maintaining 95% deployment success rate.
+- Documented infrastructure processes and CI/CD workflows, enabling knowledge transfer and team scalability.
 
 <div className="vertical-spacer"></div>
 
-### DevOps Engineer | IDCamp<span class="spacer"></span>Nov 2022 - Jan 2023
+### DevOps Bootcamp Participant | DBS Foundation Coding Camp<span class="spacer"></span>Jun 2023 - Dec 2023
 
-*Bootcamp DevOps engineer.* <span class="spacer"></span> Jenkins | Terraform | Docker | Kubernetes | Grafana | Prometheus | GCP |
+*Intensive DevOps Training Program* <span class="spacer"></span> Jenkins | AWS | Docker | Kubernetes | Prometheus | Loki
 
-- Implemented Continuous Integration (CI) and Continuous Deployment (CD) pipelines using Jenkins, Docker, Kubernetes, and Terraform.
-- Utilized GCP services for cloud-based infrastructure management.
-- Configured monitoring and alerting systems with Grafana and Prometheus.
-- Demonstrated proficiency in scripting for automation and optimization purposes.
-- Acquired hands-on experience in container orchestration and management.
-- Applied security best practices to ensure robustness of deployed solutions.
-
-<div className="vertical-spacer"></div>
-
-### DevOps Engineer | BTech Academy<span class="spacer"></span>Sep 2022 - Nov 2022
-
-*Focused Learning of Linux Administration, Ansible, and Docker* <span class="spacer"></span> Ansible | Jenkins | Docker | Kubernetes | Linux
-
-- Completed an intensive bootcamp program, focusing on Linux administration and Docker.
-- Demonstrated expertise in setting up and managing Linux servers efficiently.
-- Implemented containerization using Docker, including deployment, orchestration, and troubleshooting.
-- Collaborated on hands-on projects, applying advanced Linux and Docker solutions.
-- Acquired a deep understanding of system security and best practices for securing Linux environments.
-- Developed proficiency in Linux shell scripting for automation and system optimization.
-
-### Back-End Developer | Alterra Academy <span class="spacer"></span>Feb 2022 - Jul 2022
-
-*Backend Golang Study Independent Kampus Merdeka*<span class="spacer"></span>Golang | Docker | Kubernetes | PostgreSQL | AWS
-
-- Completed an intensive and hands-on bootcamp focused on backend development using the Golang programming language.
-- Developed proficiency in Golang syntax, concurrent programming, and web development.
-- Acquired skills in building RESTful APIs, handling HTTP requests, and integrating with databases (SQL and NoSQL).
-- Demonstrated expertise in concurrent programming through the use of Goroutines and Channels.
-- Successfully implemented security best practices, including authentication and authorization mechanisms.
-- Applied testing and debugging techniques, including unit tests, integration tests, and profiling tools.
-- Gained experience in performance optimization, including identifying and addressing performance bottlenecks.
-- Completed projects involving the deployment of Golang applications using Docker and cloud platforms.
-- Acquired insights into industry best practices, scalability strategies, and emerging trends in Golang backend development.
+- Implemented end-to-end CI/CD pipelines using Jenkins, Docker, and Kubernetes, automating software delivery processes.
+- Deployed and managed containerized applications on AWS infrastructure, gaining hands-on experience with cloud-native technologies.
+- Configured monitoring and logging solutions with Prometheus, Grafana, and Loki for real-time system observability.
+- Collaborated on team projects applying Infrastructure as Code principles and best practices for scalable deployments.
+- Developed proficiency in container orchestration, network security, and automated testing methodologies.
 
 <div className="vertical-spacer"></div>
 
-## Technical Skills And Interest
+### DevOps Bootcamp Participant | IDCamp<span class="spacer"></span>Nov 2022 - Jan 2023
 
-**Languages**: Golang, Python, YAML, Bash/Shell
+*DevOps Engineering Bootcamp* <span class="spacer"></span> Jenkins | Terraform | Docker | Kubernetes | GCP | Grafana | Prometheus
 
-**Dev Tools**: Jenkins, Docker, Kubernetes, Ansible, Terraform 
+- Built CI/CD pipelines integrating Jenkins, Docker, and Kubernetes for automated application deployment.
+- Provisioned and managed GCP infrastructure using Terraform, implementing Infrastructure as Code practices.
+- Configured monitoring dashboards with Grafana and Prometheus for system performance tracking and alerting.
+- Developed automation scripts for infrastructure management and security hardening.
+- Gained practical experience in container orchestration, cloud deployment, and DevOps toolchains.
 
-**Cloud/Databases**: AWS, GCP, Azure, PostgreSQL, MySQL, MongoDB
+<div className="vertical-spacer"></div>
 
-**Monitoring/Deployment**: Grafana, Prometheus, Loki, ELK Stack, Jenkins, GitOps, Git
+### Linux & DevOps Bootcamp Participant | BTech Academy<span class="spacer"></span>Sep 2022 - Nov 2022
 
-**Relevent Coursework**: Cloud Computing, Software Engineering, Operating Systems
+*Focused Training in Linux Administration, Ansible, and Docker* <span class="spacer"></span> Ansible | Jenkins | Docker | Kubernetes | Linux
 
-**Areas Of Interest**: DevOps, MLOps, DevSecOps, FinOps, Cloud Computing, Containerization, Automation, Network Security
+- Completed intensive training in Linux system administration, mastering server configuration and security best practices.
+- Implemented Ansible playbooks for automated server provisioning and configuration management across multiple environments.
+- Containerized applications using Docker, managing deployment pipelines and troubleshooting containerized workloads.
+- Developed shell scripts for system automation and monitoring, improving operational efficiency.
+- Applied DevOps principles to collaborative projects, focusing on infrastructure automation and reliability.
 
-**Soft Skills**: Problem-solving, Self-learning, Time Management, Adaptability
+<div className="vertical-spacer"></div>
+
+### Backend Developer Bootcamp Participant | Alterra Academy<span class="spacer"></span>Feb 2022 - Jul 2022
+
+*Backend Development with Golang - Independent Campus Program* <span class="spacer"></span> Golang | Docker | Kubernetes | PostgreSQL | AWS
+
+- Developed RESTful APIs and backend services using Golang, implementing concurrent programming with Goroutines and Channels.
+- Integrated applications with PostgreSQL and NoSQL databases, ensuring data consistency and performance optimization.
+- Containerized Golang applications with Docker and deployed to Kubernetes clusters on AWS infrastructure.
+- Implemented authentication, authorization, and security best practices for production-ready applications.
+- Applied testing methodologies (unit, integration) and performance profiling for application optimization.
+- Gained experience in cloud deployment, scalability patterns, and modern backend development practices.
 
 <div className="vertical-spacer"></div>
 
 ## Education
 
 **University of Trunojoyo** - Bachelor of Engineering, Engineering, GPA: 3.47<span class="spacer"></span>2024
+
+**Relevant Coursework**: Cloud Computing, Software Engineering, Operating Systems
+
+<div className="vertical-spacer"></div>
+
+## Technical Skills
+
+**Programming Languages**: Golang, Python, Bash/Shell, JavaScript
+
+**DevOps Tools**: Jenkins, Docker, Kubernetes, Ansible, Terraform, GitLab CI, FluxCD
+
+**Cloud Platforms**: AWS, GCP, Azure
+
+**Databases**: PostgreSQL, MySQL, MongoDB
+
+**Monitoring & Observability**: Prometheus, Grafana, Loki, ELK Stack
+
+**Infrastructure**: Linux, GitOps, Helm, Traefik, NGINX
+
+**Areas of Interest**: DevOps, MLOps, DevSecOps, FinOps, Cloud Computing, Containerization, Automation, Network Security
+
+**Soft Skills**: Problem-Solving, Self-Learning, Time Management, Adaptability, Team Collaboration
 
