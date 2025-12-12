@@ -504,6 +504,41 @@ export const portfolioItems: PortfolioItem[] = [
       "Supports 1800+ lines of sophisticated AI logic"
     ],
     technologies: ["Node.js", "JavaScript", "Baileys", "Ollama AI", "SQLite", "MongoDB", "Docker", "Natural Language Processing", "Vector Embeddings", "Pino"]
+  },
+  {
+    id: "11",
+    title: "Grafana Dashboard Generator",
+    description: "An automated solution for generating and deploying Grafana dashboards for Kubernetes services. Discovers services with monitoring enabled, generates customized dashboards from templates, and deploys them to Grafana via ConfigMaps while maintaining version control through GitLab integration.",
+    githubUrl: "https://github.com/wussh/grafana-dashboard-generator",
+    goals: [
+      "Automate Grafana dashboard generation for Kubernetes services",
+      "Implement service discovery for monitoring-enabled applications",
+      "Create reusable dashboard templates with service-specific customization",
+      "Establish GitLab integration for template management and version control",
+      "Enable automated deployment through Kubernetes ConfigMaps"
+    ],
+    challenges: [
+      "Implementing reliable service discovery across multiple namespaces",
+      "Managing dashboard template customization with dynamic placeholders",
+      "Ensuring Grafana sidecar auto-loading of generated ConfigMaps",
+      "Maintaining version control synchronization with GitLab repository",
+      "Handling concurrent dashboard generation and deployment"
+    ],
+    solution: [
+      "Kubernetes CronJob for periodic service discovery and dashboard generation",
+      "Template-based approach with envsubst for dynamic placeholder replacement",
+      "ConfigMap-based deployment with proper Grafana sidecar labels",
+      "GitLab API integration for template fetching and dashboard synchronization",
+      "Prometheus stack with Grafana for metrics collection and visualization"
+    ],
+    results: [
+      "Fully automated dashboard generation reducing manual configuration by 90%",
+      "Scalable solution supporting unlimited services with monitoring enabled",
+      "Version-controlled dashboards with GitLab repository synchronization",
+      "Comprehensive monitoring coverage with standardized dashboard layouts",
+      "Improved observability workflow with automated deployment pipeline"
+    ],
+    technologies: ["Kubernetes", "Grafana", "Prometheus", "GitLab", "CronJob", "ConfigMap", "Helm", "Bash", "YAML", "JSON", "GitOps"]
   }
 ];
 
