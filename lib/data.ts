@@ -15,6 +15,15 @@ export const experiences: Experience[] = [
   {
     id: "1",
     title: "DevOps Engineer",
+    company: "Bank Rakyat Indonesia",
+    type: "Full-time",
+    technologies: [],
+    achievements: [],
+    period: "Jan 2026 - Present"
+  },
+  {
+    id: "2",
+    title: "DevOps Engineer",
     company: "Falah Inovasi Teknologi",
     type: "Full-time",
     technologies: ["GitLab CI", "Kubernetes", "Docker", "Ansible", "FluxCD", "Prometheus", "Grafana", "Traefik"],
@@ -29,10 +38,10 @@ export const experiences: Experience[] = [
       "Led incident response for production issues, resolving critical problems within SLA windows and documenting post-mortems for continuous improvement.",
       "Collaborated with development teams to optimize container images, reducing size by 50% and improving deployment efficiency."
     ],
-    period: "Sep 2024 - Present"
+    period: "Sep 2024 - Dec 2025"
   },
   {
-    id: "2",
+    id: "3",
     title: "DevOps Engineer",
     company: "Evermos",
     type: "Internship",
@@ -50,7 +59,7 @@ export const experiences: Experience[] = [
     period: "Mar 2024 - Aug 2024"
   },
   {
-    id: "3",
+    id: "4",
     title: "DevOps Bootcamp Participant",
     company: "DBS Foundation Coding Camp",
     type: "Intensive DevOps Training Program",
@@ -65,7 +74,7 @@ export const experiences: Experience[] = [
     period: "Jun 2023 - Dec 2023"
   },
   {
-    id: "4",
+    id: "5",
     title: "DevOps Bootcamp Participant",
     company: "IDCamp",
     type: "DevOps Engineering Bootcamp",
@@ -80,7 +89,7 @@ export const experiences: Experience[] = [
     period: "Nov 2022 - Jan 2023"
   },
   {
-    id: "5",
+    id: "6",
     title: "Linux & DevOps Bootcamp Participant",
     company: "BTech Academy",
     type: "Focused Training in Linux Administration, Ansible, and Docker",
@@ -95,7 +104,7 @@ export const experiences: Experience[] = [
     period: "Sep 2022 - Nov 2022"
   },
   {
-    id: "6",
+    id: "7",
     title: "Backend Developer Bootcamp Participant",
     company: "Alterra Academy",
     type: "Backend Development with Golang - Independent Campus Program",

@@ -24,7 +24,13 @@ Results-driven DevOps Engineer with 2+ years of experience in designing, impleme
 ## Experience
 <div className="vertical-spacer"></div>
 
-### DevOps Engineer | Falah Inovasi Teknologi<span class="spacer"></span>Sep 2024 - Present
+### DevOps Engineer | Bank Rakyat Indonesia<span class="spacer"></span>Jan 2026 - Present
+
+*Full-time* <span class="spacer"></span> 
+
+<div className="vertical-spacer"></div>
+
+### DevOps Engineer | Falah Inovasi Teknologi<span class="spacer"></span>Sep 2024 - Dec 2025
 
 *Full-time* <span class="spacer"></span> GitLab CI | Kubernetes | Docker | Ansible | FluxCD | Prometheus | Grafana | Traefik
 
