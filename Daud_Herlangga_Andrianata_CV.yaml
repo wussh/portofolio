@@ -24,7 +24,7 @@ cv:
       - label: CI/CD & Automation
         details: Jenkins, GitLab CI, Terraform, Ansible, GitHub Actions
       - label: Cloud Platforms
-        details: AWS (EC2, S3, RDS, EKS, IAM), GCP (GKE, Compute Engine), Azure (AKS, VMs), Cloudflare
+        details: AWS, GCP, Azure, Cloudflare
       - label: Monitoring & Observability
         details: Grafana, Prometheus, Loki, Tempo, ELK Stack, Alertmanager, OpenTelemetry
       - label: Security & Networking

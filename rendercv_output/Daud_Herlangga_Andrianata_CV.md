@@ -17,7 +17,7 @@ Results-driven DevOps Engineer with 2+ years of experience in designing, impleme
 
 **CI/CD & Automation:** Jenkins, GitLab CI, Terraform, Ansible, GitHub Actions
 
-**Cloud Platforms:** AWS (EC2, S3, RDS, EKS, IAM), GCP (GKE, Compute Engine), Azure (AKS, VMs), Cloudflare
+**Cloud Platforms:** AWS, GCP, Azure, Cloudflare
 
 **Monitoring & Observability:** Grafana, Prometheus, Loki, Tempo, ELK Stack, Alertmanager, OpenTelemetry
 
