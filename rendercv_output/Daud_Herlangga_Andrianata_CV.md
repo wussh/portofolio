@@ -11,19 +11,19 @@
 Results-driven DevOps Engineer with 2+ years of experience in designing, implementing, and maintaining scalable infrastructure solutions. Expertise in Kubernetes, CI/CD pipelines, cloud platforms (AWS, GCP, Azure), and automation tools. Proven track record of optimizing deployment processes, reducing downtime, and enhancing system reliability. Passionate about infrastructure as code, monitoring, and DevSecOps practices.
 
 # Core Skills
-**Languages:** Golang, Python, YAML, Bash/Shell
+**Languages & Scripting:** Golang, Python, Bash/Shell, YAML
 
-**DevOps Tools:** Jenkins, Docker, Kubernetes, Ansible, Terraform, GitLab CI, FluxCD, Argo CD, Helm
+**Container & Orchestration:** Docker, Kubernetes, Helm, Karpenter, FluxCD, Argo CD
 
-**Cloud Platforms:** AWS (EC2, S3, RDS, EKS, IAM), GCP (GKE, Compute Engine), Azure (AKS, VMs)
+**CI/CD & Automation:** Jenkins, GitLab CI, Terraform, Ansible, GitHub Actions
 
-**Monitoring & Logging:** Grafana, Prometheus, Loki, ELK Stack, Alertmanager
+**Cloud Platforms:** AWS (EC2, S3, RDS, EKS, IAM), GCP (GKE, Compute Engine), Azure (AKS, VMs), Cloudflare
 
-**Databases:** PostgreSQL, MySQL, MongoDB
+**Monitoring & Observability:** Grafana, Prometheus, Loki, Tempo, ELK Stack, Alertmanager, OpenTelemetry
 
-**Service Mesh & Ingress:** Istio, Traefik, NGINX Ingress, Cert-Manager
+**Security & Networking:** Trivy, Falco, Harbor, Tailscale, HashiCorp Vault, HSM, AWS KMS, Istio, Traefik, NGINX Ingress, Cert-Manager
 
-**Areas of Interest:** DevOps, MLOps, DevSecOps, FinOps, Cloud Computing, Containerization, Automation, Network Security
+**Databases & Middleware:** PostgreSQL, MySQL, MongoDB, RabbitMQ, Kafka, Kong, Chaos Mesh
 
 # Professional Experience
 ## **DevOps Engineer**, Bank Rakyat Indonesia -- Jakarta, Indonesia
@@ -42,7 +42,21 @@ Sept 2024 – Dec 2025
 
 - Designed and maintained CI/CD pipelines using GitLab CI for Unity-based, microservices, and frontend applications, reducing deployment time by 40% and ensuring consistent releases across environments
 
-- Implemented comprehensive monitoring stack (Prometheus, Grafana, Loki, Alertmanager) enabling proactive detection of issues and reducing incident response time by 60%
+- Implemented comprehensive monitoring stack (Prometheus, Grafana, Loki, Tempo, Alertmanager) with OpenTelemetry for distributed tracing, enabling proactive detection of issues and reducing incident response time by 60%
+
+- Deployed and managed message broker infrastructure using RabbitMQ and Kafka for event-driven microservices architecture, ensuring reliable asynchronous communication
+
+- Implemented Kong API Gateway for centralized API management, rate limiting, and authentication, improving API security and performance monitoring
+
+- Integrated container security scanning with Trivy in CI/CD pipelines and deployed Falco for runtime security monitoring, identifying and remediating vulnerabilities before production deployment
+
+- Implemented HashiCorp Vault with HSM integration for centralized secrets management and encryption key storage, ensuring secure credential rotation and compliance with security standards
+
+- Implemented Harbor as private container registry with vulnerability scanning and image signing, improving supply chain security and compliance
+
+- Conducted chaos engineering experiments with Chaos Mesh to validate system resilience, identifying weaknesses and improving fault tolerance across microservices
+
+- Established secure networking with Tailscale VPN and Cloudflare for zero-trust architecture, improving remote access security and DDoS protection
 
 - Deployed and optimized AI/ML inference services on Kubernetes, achieving 30% improvement in model loading times through resource tuning and autoscaling
 
@@ -68,7 +82,13 @@ Mar 2024 – Aug 2024
 
 - Containerized legacy applications with Docker and orchestrated deployments on EKS, reducing environment inconsistencies by 70%
 
-- Managed AWS infrastructure (EC2, S3, RDS, IAM), provisioning resources for dev/staging environments and optimizing costs by 25%
+- Deployed Kong API Gateway on EKS for microservices API management, implementing rate limiting and authentication policies to improve API reliability
+
+- Implemented Karpenter for just-in-time node provisioning on EKS, reducing cluster costs by 35% through efficient compute resource scaling
+
+- Deployed HashiCorp Vault on EKS integrated with AWS KMS for secure secrets management, implementing dynamic credentials and automated rotation policies for databases and cloud services
+
+- Managed AWS infrastructure (EC2, S3, RDS, IAM, KMS), provisioning resources for dev/staging environments and optimizing costs by 25%
 
 - Optimized Jenkins pipelines through parallelization and caching, cutting average deployment time from 45 to 25 minutes
 

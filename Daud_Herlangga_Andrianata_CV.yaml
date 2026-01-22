@@ -17,20 +17,20 @@ cv:
     Professional Summary:
       - Results-driven DevOps Engineer with 2+ years of experience in designing, implementing, and maintaining scalable infrastructure solutions. Expertise in Kubernetes, CI/CD pipelines, cloud platforms (AWS, GCP, Azure), and automation tools. Proven track record of optimizing deployment processes, reducing downtime, and enhancing system reliability. Passionate about infrastructure as code, monitoring, and DevSecOps practices.
     Core Skills:
-      - label: Languages
-        details: Golang, Python, YAML, Bash/Shell
-      - label: DevOps Tools
-        details: Jenkins, Docker, Kubernetes, Ansible, Terraform, GitLab CI, FluxCD, Argo CD, Helm
+      - label: Languages & Scripting
+        details: Golang, Python, Bash/Shell, YAML
+      - label: Container & Orchestration
+        details: Docker, Kubernetes, Helm, Karpenter, FluxCD, Argo CD
+      - label: CI/CD & Automation
+        details: Jenkins, GitLab CI, Terraform, Ansible, GitHub Actions
       - label: Cloud Platforms
-        details: AWS (EC2, S3, RDS, EKS, IAM), GCP (GKE, Compute Engine), Azure (AKS, VMs)
-      - label: Monitoring & Logging
-        details: Grafana, Prometheus, Loki, ELK Stack, Alertmanager
-      - label: Databases
-        details: PostgreSQL, MySQL, MongoDB
-      - label: Service Mesh & Ingress
-        details: Istio, Traefik, NGINX Ingress, Cert-Manager
-      - label: Areas of Interest
-        details: DevOps, MLOps, DevSecOps, FinOps, Cloud Computing, Containerization, Automation, Network Security
+        details: AWS (EC2, S3, RDS, EKS, IAM), GCP (GKE, Compute Engine), Azure (AKS, VMs), Cloudflare
+      - label: Monitoring & Observability
+        details: Grafana, Prometheus, Loki, Tempo, ELK Stack, Alertmanager, OpenTelemetry
+      - label: Security & Networking
+        details: Trivy, Falco, Harbor, Tailscale, HashiCorp Vault, HSM, AWS KMS, Istio, Traefik, NGINX Ingress, Cert-Manager
+      - label: Databases & Middleware
+        details: PostgreSQL, MySQL, MongoDB, RabbitMQ, Kafka, Kong, Chaos Mesh
     Professional Experience:
       - company: Bank Rakyat Indonesia
         position: DevOps Engineer
@@ -51,7 +51,14 @@ cv:
         highlights:
           - Managed 5+ bare-metal Kubernetes clusters serving internal and client applications, ensuring 99.9% uptime through proactive maintenance, storage optimization, and network configuration
           - Designed and maintained CI/CD pipelines using GitLab CI for Unity-based, microservices, and frontend applications, reducing deployment time by 40% and ensuring consistent releases across environments
-          - Implemented comprehensive monitoring stack (Prometheus, Grafana, Loki, Alertmanager) enabling proactive detection of issues and reducing incident response time by 60%
+          - Implemented comprehensive monitoring stack (Prometheus, Grafana, Loki, Tempo, Alertmanager) with OpenTelemetry for distributed tracing, enabling proactive detection of issues and reducing incident response time by 60%
+          - Deployed and managed message broker infrastructure using RabbitMQ and Kafka for event-driven microservices architecture, ensuring reliable asynchronous communication
+          - Implemented Kong API Gateway for centralized API management, rate limiting, and authentication, improving API security and performance monitoring
+          - Integrated container security scanning with Trivy in CI/CD pipelines and deployed Falco for runtime security monitoring, identifying and remediating vulnerabilities before production deployment
+          - Implemented HashiCorp Vault with HSM integration for centralized secrets management and encryption key storage, ensuring secure credential rotation and compliance with security standards
+          - Implemented Harbor as private container registry with vulnerability scanning and image signing, improving supply chain security and compliance
+          - Conducted chaos engineering experiments with Chaos Mesh to validate system resilience, identifying weaknesses and improving fault tolerance across microservices
+          - Established secure networking with Tailscale VPN and Cloudflare for zero-trust architecture, improving remote access security and DDoS protection
           - Deployed and optimized AI/ML inference services on Kubernetes, achieving 30% improvement in model loading times through resource tuning and autoscaling
           - Applied GitOps principles with FluxCD to manage 50+ Helm releases, improving deployment traceability and reducing configuration drift by 80%
           - Automated infrastructure provisioning with Ansible, standardizing server setup across 20+ nodes and reducing manual configuration errors
@@ -69,7 +76,10 @@ cv:
           - Supported DevOps operations for high-traffic e-commerce platform, improving deployment reliability for 15+ microservices
           - Built and maintained Jenkins CI/CD pipelines (Freestyle & Declarative), automating build-test-deploy cycles for Golang, Java, and mobile applications
           - Containerized legacy applications with Docker and orchestrated deployments on EKS, reducing environment inconsistencies by 70%
-          - Managed AWS infrastructure (EC2, S3, RDS, IAM), provisioning resources for dev/staging environments and optimizing costs by 25%
+          - Deployed Kong API Gateway on EKS for microservices API management, implementing rate limiting and authentication policies to improve API reliability
+          - Implemented Karpenter for just-in-time node provisioning on EKS, reducing cluster costs by 35% through efficient compute resource scaling
+          - Deployed HashiCorp Vault on EKS integrated with AWS KMS for secure secrets management, implementing dynamic credentials and automated rotation policies for databases and cloud services
+          - Managed AWS infrastructure (EC2, S3, RDS, IAM, KMS), provisioning resources for dev/staging environments and optimizing costs by 25%
           - Optimized Jenkins pipelines through parallelization and caching, cutting average deployment time from 45 to 25 minutes
           - Developed Terraform modules for standardized AWS resource provisioning, reducing setup time by 60% and ensuring compliance
           - Troubleshot build failures and deployment issues in collaboration with backend and QA teams, maintaining 95% deployment success rate
