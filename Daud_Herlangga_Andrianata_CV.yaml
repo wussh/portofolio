@@ -46,7 +46,7 @@ cv:
         date:
         start_date: 2024-09
         end_date: 2025-12
-        location: Surabaya, Indonesia
+        location: Jakarta, Indonesia
         summary:
         highlights:
           - Managed 5+ bare-metal Kubernetes clusters serving internal and client applications, ensuring 99.9% uptime through proactive maintenance, storage optimization, and network configuration
@@ -63,7 +63,7 @@ cv:
         date:
         start_date: 2024-03
         end_date: 2024-08
-        location: Malang, Indonesia
+        location: Bandung, Indonesia
         summary:
         highlights:
           - Supported DevOps operations for high-traffic e-commerce platform, improving deployment reliability for 15+ microservices
@@ -79,7 +79,7 @@ cv:
         date:
         start_date: 2023-06
         end_date: 2023-12
-        location: Jakarta, Indonesia
+        location: Remote
         summary: Intensive DevOps Training Program
         highlights:
           - Implemented end-to-end CI/CD pipelines using Jenkins, Docker, and Kubernetes, automating software delivery processes
@@ -131,7 +131,7 @@ cv:
       - name: '[Azure Kubeflow Deployment](https://github.com/wussh/azure-kubeflow-vm)'
         date:
         start_date: 2024-01
-        end_date: present
+        end_date:
         location:
         summary: A comprehensive Terraform solution for deploying Kubeflow on Azure using a single Ubuntu VM, automating the setup of MicroK8s, Juju, and Kubeflow to create a complete machine learning platform ready for ML/AI workloads
         highlights:
@@ -142,7 +142,7 @@ cv:
       - name: '[Azure K3s Terraform Deployment](https://github.com/wussh/terraform-azure-k3s-cluster)'
         date:
         start_date: 2024-01
-        end_date: present
+        end_date:
         location:
         summary: A comprehensive infrastructure as code solution for deploying a lightweight Kubernetes (K3s) cluster on Azure using Terraform, featuring automated networking, security configurations, and support for Istio service mesh integration
         highlights:

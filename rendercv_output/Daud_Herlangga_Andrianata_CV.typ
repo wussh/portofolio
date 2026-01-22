@@ -135,7 +135,7 @@ Results-driven DevOps Engineer with 2+ years of experience in designing, impleme
 
 #regular-entry(
   [
-    #strong[DevOps Engineer], Falah Inovasi Teknologi -- Surabaya, Indonesia
+    #strong[DevOps Engineer], Falah Inovasi Teknologi -- Jakarta, Indonesia
 
   ],
   [
@@ -166,7 +166,7 @@ Results-driven DevOps Engineer with 2+ years of experience in designing, impleme
 
 #regular-entry(
   [
-    #strong[DevOps Engineer (Internship)], Evermos -- Malang, Indonesia
+    #strong[DevOps Engineer (Internship)], Evermos -- Bandung, Indonesia
 
   ],
   [
@@ -195,7 +195,7 @@ Results-driven DevOps Engineer with 2+ years of experience in designing, impleme
 
 #regular-entry(
   [
-    #strong[DevOps Bootcamp Participant], DBS Foundation Coding Camp -- Jakarta, Indonesia
+    #strong[DevOps Bootcamp Participant], DBS Foundation Coding Camp -- Remote
 
   ],
   [

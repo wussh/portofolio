@@ -34,7 +34,7 @@ Jan 2026 – present
 
 
 
-## **DevOps Engineer**, Falah Inovasi Teknologi -- Surabaya, Indonesia
+## **DevOps Engineer**, Falah Inovasi Teknologi -- Jakarta, Indonesia
 
 Sept 2024 – Dec 2025
 
@@ -58,7 +58,7 @@ Sept 2024 – Dec 2025
 
 
 
-## **DevOps Engineer (Internship)**, Evermos -- Malang, Indonesia
+## **DevOps Engineer (Internship)**, Evermos -- Bandung, Indonesia
 
 Mar 2024 – Aug 2024
 
@@ -80,7 +80,7 @@ Mar 2024 – Aug 2024
 
 
 
-## **DevOps Bootcamp Participant**, DBS Foundation Coding Camp -- Jakarta, Indonesia
+## **DevOps Bootcamp Participant**, DBS Foundation Coding Camp -- Remote
 
 June 2023 – Dec 2023
 
