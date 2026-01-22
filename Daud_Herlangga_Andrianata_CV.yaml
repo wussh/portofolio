@@ -1,0 +1,405 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+cv:
+  name: Daud Herlangga Andrianata
+  headline: DevOps Engineer
+  location: Jakarta, Indonesia
+  email: andrianta.321@gmail.com
+  photo:
+  phone: '+62 85172178338'
+  website:
+  social_networks:
+    - network: LinkedIn
+      username: daud-herlangga-andrianata
+    - network: GitHub
+      username: wussh
+  custom_connections:
+  sections:
+    summary:
+      - Results-driven DevOps Engineer with 2+ years of experience in designing, implementing, and maintaining scalable infrastructure solutions. Expertise in Kubernetes, CI/CD pipelines, cloud platforms (AWS, GCP, Azure), and automation tools. Proven track record of optimizing deployment processes, reducing downtime, and enhancing system reliability. Passionate about infrastructure as code, monitoring, and DevSecOps practices.
+    education:
+      - institution: University of Trunojoyo
+        area: Mechatronic Engineering
+        degree: Bachelor of Engineering
+        date:
+        start_date: 2020-09
+        end_date: 2024-07
+        location: Madura, Indonesia
+        summary:
+        highlights:
+          - 'GPA: 3.47/4.00'
+          - 'Relevant Coursework: Cloud Computing, Software Engineering, Operating Systems'
+    experience:
+      - company: Bank Rakyat Indonesia
+        position: DevOps Engineer
+        date:
+        start_date: 2026-01
+        end_date: present
+        location: Jakarta, Indonesia
+        summary:
+        highlights:
+          - Full-time position in financial services sector
+      - company: Falah Inovasi Teknologi
+        position: DevOps Engineer
+        date:
+        start_date: 2024-09
+        end_date: 2025-12
+        location: Surabaya, Indonesia
+        summary:
+        highlights:
+          - Managed 5+ bare-metal Kubernetes clusters serving internal and client applications, ensuring 99.9% uptime through proactive maintenance, storage optimization, and network configuration
+          - Designed and maintained CI/CD pipelines using GitLab CI for Unity-based, microservices, and frontend applications, reducing deployment time by 40% and ensuring consistent releases across environments
+          - Implemented comprehensive monitoring stack (Prometheus, Grafana, Loki, Alertmanager) enabling proactive detection of issues and reducing incident response time by 60%
+          - Deployed and optimized AI/ML inference services on Kubernetes, achieving 30% improvement in model loading times through resource tuning and autoscaling
+          - Applied GitOps principles with FluxCD to manage 50+ Helm releases, improving deployment traceability and reducing configuration drift by 80%
+          - Automated infrastructure provisioning with Ansible, standardizing server setup across 20+ nodes and reducing manual configuration errors
+          - Established multi-tenant environments with Traefik ingress, TLS encryption, and resource quotas, enhancing security and stability for multi-project deployments
+          - Led incident response for production issues, resolving critical problems within SLA windows and documenting post-mortems for continuous improvement
+          - Collaborated with development teams to optimize container images, reducing size by 50% and improving deployment efficiency
+      - company: Evermos
+        position: DevOps Engineer (Internship)
+        date:
+        start_date: 2024-03
+        end_date: 2024-08
+        location: Malang, Indonesia
+        summary:
+        highlights:
+          - Supported DevOps operations for high-traffic e-commerce platform, improving deployment reliability for 15+ microservices
+          - Built and maintained Jenkins CI/CD pipelines (Freestyle & Declarative), automating build-test-deploy cycles for Golang, Java, and mobile applications
+          - Containerized legacy applications with Docker and orchestrated deployments on EKS, reducing environment inconsistencies by 70%
+          - Managed AWS infrastructure (EC2, S3, RDS, IAM), provisioning resources for dev/staging environments and optimizing costs by 25%
+          - Optimized Jenkins pipelines through parallelization and caching, cutting average deployment time from 45 to 25 minutes
+          - Developed Terraform modules for standardized AWS resource provisioning, reducing setup time by 60% and ensuring compliance
+          - Troubleshot build failures and deployment issues in collaboration with backend and QA teams, maintaining 95% deployment success rate
+          - Documented infrastructure processes and CI/CD workflows, enabling knowledge transfer and team scalability
+      - company: DBS Foundation Coding Camp
+        position: DevOps Bootcamp Participant
+        date:
+        start_date: 2023-06
+        end_date: 2023-12
+        location: Jakarta, Indonesia
+        summary: Intensive DevOps Training Program
+        highlights:
+          - Implemented end-to-end CI/CD pipelines using Jenkins, Docker, and Kubernetes, automating software delivery processes
+          - Deployed and managed containerized applications on AWS infrastructure, gaining hands-on experience with cloud-native technologies
+          - Configured monitoring and logging solutions with Prometheus, Grafana, and Loki for real-time system observability
+          - Collaborated on team projects applying Infrastructure as Code principles and best practices for scalable deployments
+          - Developed proficiency in container orchestration, network security, and automated testing methodologies
+      - company: IDCamp
+        position: DevOps Bootcamp Participant
+        date:
+        start_date: 2022-11
+        end_date: 2023-01
+        location: Remote
+        summary: DevOps Engineering Bootcamp
+        highlights:
+          - Built CI/CD pipelines integrating Jenkins, Docker, and Kubernetes for automated application deployment
+          - Provisioned and managed GCP infrastructure using Terraform, implementing Infrastructure as Code practices
+          - Configured monitoring dashboards with Grafana and Prometheus for system performance tracking and alerting
+          - Developed automation scripts for infrastructure management and security hardening
+          - Gained practical experience in container orchestration, cloud deployment, and DevOps toolchains
+      - company: BTech Academy
+        position: Linux & DevOps Bootcamp Participant
+        date:
+        start_date: 2022-09
+        end_date: 2022-11
+        location: Remote
+        summary: Focused Training in Linux Administration, Ansible, and Docker
+        highlights:
+          - Completed intensive training in Linux system administration, mastering server configuration and security best practices
+          - Implemented Ansible playbooks for automated server provisioning and configuration management across multiple environments
+          - Containerized applications using Docker, managing deployment pipelines and troubleshooting containerized workloads
+          - Developed shell scripts for system automation and monitoring, improving operational efficiency
+          - Applied DevOps principles to collaborative projects, focusing on infrastructure automation and reliability
+      - company: Alterra Academy
+        position: Backend Developer Bootcamp Participant
+        date:
+        start_date: 2022-02
+        end_date: 2022-07
+        location: Remote
+        summary: Backend Development with Golang - Independent Campus Program
+        highlights:
+          - Developed RESTful APIs and backend services using Golang, implementing concurrent programming with Goroutines and Channels
+          - Integrated applications with PostgreSQL and NoSQL databases, ensuring data consistency and performance optimization
+          - Containerized Golang applications with Docker and deployed to Kubernetes clusters on AWS infrastructure
+          - Implemented authentication, authorization, and security best practices for production-ready applications
+          - Applied testing methodologies (unit, integration) and performance profiling for application optimization
+          - Gained experience in cloud deployment, scalability patterns, and modern backend development practices
+    projects:
+      - name: '[Azure Kubeflow Deployment](https://github.com/wussh/azure-kubeflow-vm)'
+        date:
+        start_date: 2024-01
+        end_date: present
+        location:
+        summary: A comprehensive Terraform solution for deploying Kubeflow on Azure using a single Ubuntu VM, automating the setup of MicroK8s, Juju, and Kubeflow to create a complete machine learning platform ready for ML/AI workloads
+        highlights:
+          - Achieved complete ML platform deployment in under 30 minutes with idempotent deployment process
+          - Implemented Terraform for Azure infrastructure automation with robust setup script and progress tracking
+          - Configured MicroK8s with Juju for Kubeflow orchestration and automated data disk mounting for persistence
+          - Technologies - Terraform, Azure, Kubeflow, MicroK8s, Juju, Kubernetes, Shell Scripting, ML/AI
+      - name: '[Azure K3s Terraform Deployment](https://github.com/wussh/terraform-azure-k3s-cluster)'
+        date:
+        start_date: 2024-01
+        end_date: present
+        location:
+        summary: A comprehensive infrastructure as code solution for deploying a lightweight Kubernetes (K3s) cluster on Azure using Terraform, featuring automated networking, security configurations, and support for Istio service mesh integration
+        highlights:
+          - Fully automated infrastructure deployment with secure cluster configuration and proper NSG rules
+          - Implemented modular Terraform configuration with GitOps integration using Flux CD
+          - Configured advanced traffic management with Istio and comprehensive security with mTLS
+          - Technologies - Terraform, Azure, K3s, Istio, Flux CD, Traefik, Linux, GitOps
+      - name: '[SurfSense CI/CD](https://github.com/wussh/SurfSense-ci-cd)'
+        date: '2024'
+        start_date:
+        end_date:
+        location:
+        summary: A comprehensive CI/CD pipeline for automating deployments of SurfSense using GitHub Actions, Cloudflare Tunnel, and systemd services
+        highlights:
+          - Reduced deployment time with zero manual intervention and enhanced security through Cloudflare Tunnel
+          - Implemented GitHub Actions workflow automation with systemd for service management
+          - Technologies - GitHub Actions, Cloudflare Tunnel, SSH, systemd, Ubuntu
+      - name: '[Fider CI/CD Pipeline](https://github.com/wussh/fider-ci-cd)'
+        date: '2024'
+        start_date:
+        end_date:
+        location:
+        summary: A robust CI/CD pipeline for Fider implementing automated build, test, and deployment workflows using Docker containers and GitHub Actions
+        highlights:
+          - Reduced deployment errors and accelerated release cycles through automation
+          - Multi-stage GitHub Actions workflow with Docker containerization for consistency
+          - Technologies - GitHub Actions, Docker, Go, Node.js, PostgreSQL, SSH
+      - name: '[Kubernetes Cluster GCP Setup](https://github.com/wussh/argocd)'
+        date: '2023'
+        start_date:
+        end_date:
+        location:
+        summary: Comprehensive implementation of a Kubernetes cluster on Google Cloud Platform with NGINX Ingress Controller, Cert-Manager, and Argo CD using Helm
+        highlights:
+          - Achieved fully automated certificate management with Let's Encrypt integration
+          - Established GitOps workflow with Argo CD for declarative configuration as code
+          - Technologies - Kubernetes, Argo CD, NGINX Ingress, Cert-Manager, Helm, Let's Encrypt, GCP
+      - name: '[Terraform AWS EC2 Deployment](https://github.com/wussh/terraform-aws)'
+        date: '2023'
+        start_date:
+        end_date:
+        location:
+        summary: Infrastructure as Code implementation using Terraform to automate EC2 instance deployment on AWS with security configurations and SSH access setup
+        highlights:
+          - Reduced deployment time from hours to minutes with consistent and repeatable infrastructure
+          - Implemented Terraform modules with variable files for environment separation
+          - Technologies - Terraform, AWS, EC2, IAM, SSH, Security Groups
+      - name: '[FluxCD GitOps Implementation](https://github.com/wussh/flux-new)'
+        date: '2023'
+        start_date:
+        end_date:
+        location:
+        summary: Comprehensive GitOps implementation using FluxCD to manage Kubernetes cluster configurations and deployments
+        highlights:
+          - Established fully automated deployment pipeline with version-controlled infrastructure
+          - Structured repository with base, clusters, and infrastructure directories using Kustomization
+          - Technologies - FluxCD, Kubernetes, GitOps, NGINX Ingress, Cert-Manager, Kustomize
+      - name: '[Helm Chart for Backend Deployment](https://github.com/wussh/backend-app)'
+        date: '2023'
+        start_date:
+        end_date:
+        location:
+        summary: Custom Helm chart for standardized backend application deployments in Kubernetes with templated configurations
+        highlights:
+          - Reduced deployment complexity with consistent application configurations
+          - Templated Kubernetes manifests with configurable values.yaml for customization
+          - Technologies - Helm, Kubernetes, YAML, Ingress, Deployment, Service
+    skills:
+      - label: Languages
+        details: Golang, Python, YAML, Bash/Shell
+      - label: DevOps Tools
+        details: Jenkins, Docker, Kubernetes, Ansible, Terraform, GitLab CI, FluxCD, Argo CD, Helm
+      - label: Cloud Platforms
+        details: AWS (EC2, S3, RDS, EKS, IAM), GCP (GKE, Compute Engine), Azure (AKS, VMs)
+      - label: Monitoring & Logging
+        details: Grafana, Prometheus, Loki, ELK Stack, Alertmanager
+      - label: Databases
+        details: PostgreSQL, MySQL, MongoDB
+      - label: Service Mesh & Ingress
+        details: Istio, Traefik, NGINX Ingress, Cert-Manager
+      - label: Areas of Interest
+        details: DevOps, MLOps, DevSecOps, FinOps, Cloud Computing, Containerization, Automation, Network Security
+design:
+  theme: engineeringresumes
+  # page:
+  #   size: us-letter
+  #   top_margin: 0.7in
+  #   bottom_margin: 0.7in
+  #   left_margin: 0.7in
+  #   right_margin: 0.7in
+  #   show_footer: true
+  #   show_top_note: true
+  # colors:
+  #   body: rgb(0, 0, 0)
+  #   name: rgb(0, 79, 144)
+  #   headline: rgb(0, 79, 144)
+  #   connections: rgb(0, 79, 144)
+  #   section_titles: rgb(0, 79, 144)
+  #   links: rgb(0, 79, 144)
+  #   footer: rgb(128, 128, 128)
+  #   top_note: rgb(128, 128, 128)
+  # typography:
+  #   line_spacing: 0.6em
+  #   alignment: justified
+  #   date_and_location_column_alignment: right
+  #   font_family:
+  #     body: Source Sans 3
+  #     name: Source Sans 3
+  #     headline: Source Sans 3
+  #     connections: Source Sans 3
+  #     section_titles: Source Sans 3
+  #   font_size:
+  #     body: 10pt
+  #     name: 30pt
+  #     headline: 10pt
+  #     connections: 10pt
+  #     section_titles: 1.4em
+  #   small_caps:
+  #     name: false
+  #     headline: false
+  #     connections: false
+  #     section_titles: false
+  #   bold:
+  #     name: true
+  #     headline: false
+  #     connections: false
+  #     section_titles: true
+  # links:
+  #   underline: false
+  #   show_external_link_icon: false
+  # header:
+  #   alignment: center
+  #   photo_width: 3.5cm
+  #   photo_position: left
+  #   photo_space_left: 0.4cm
+  #   photo_space_right: 0.4cm
+  #   space_below_name: 0.7cm
+  #   space_below_headline: 0.7cm
+  #   space_below_connections: 0.7cm
+  #   connections:
+  #     phone_number_format: national
+  #     hyperlink: true
+  #     show_icons: true
+  #     display_urls_instead_of_usernames: false
+  #     separator: ''
+  #     space_between_connections: 0.5cm
+  # section_titles:
+  #   type: with_partial_line
+  #   line_thickness: 0.5pt
+  #   space_above: 0.5cm
+  #   space_below: 0.3cm
+  # sections:
+  #   allow_page_break: true
+  #   space_between_regular_entries: 1.2em
+  #   space_between_text_based_entries: 0.3em
+  #   show_time_spans_in:
+  #     - experience
+  # entries:
+  #   date_and_location_width: 4.15cm
+  #   side_space: 0.2cm
+  #   space_between_columns: 0.1cm
+  #   allow_page_break: false
+  #   short_second_row: true
+  #   summary:
+  #     space_above: 0cm
+  #     space_left: 0cm
+  #   highlights:
+  #     bullet: •
+  #     nested_bullet: •
+  #     space_left: 0.15cm
+  #     space_above: 0cm
+  #     space_between_items: 0cm
+  #     space_between_bullet_and_text: 0.5em
+  # templates:
+  #   footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
+  #   top_note: '*LAST_UPDATED CURRENT_DATE*'
+  #   single_date: MONTH_ABBREVIATION YEAR
+  #   date_range: START_DATE – END_DATE
+  #   time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
+  #   one_line_entry:
+  #     main_column: '**LABEL:** DETAILS'
+  #   education_entry:
+  #     main_column: |-
+  #       **INSTITUTION**, AREA
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     degree_column: '**DEGREE**'
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   normal_entry:
+  #     main_column: |-
+  #       **NAME**
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   experience_entry:
+  #     main_column: |-
+  #       **COMPANY**, POSITION
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   publication_entry:
+  #     main_column: |-
+  #       **TITLE**
+  #       SUMMARY
+  #       AUTHORS
+  #       URL (JOURNAL)
+  #     date_and_location_column: DATE
+locale:
+  language: english
+  # last_updated: Last updated in
+  # month: month
+  # months: months
+  # year: year
+  # years: years
+  # present: present
+  # month_abbreviations:
+  #   - Jan
+  #   - Feb
+  #   - Mar
+  #   - Apr
+  #   - May
+  #   - June
+  #   - July
+  #   - Aug
+  #   - Sept
+  #   - Oct
+  #   - Nov
+  #   - Dec
+  # month_names:
+  #   - January
+  #   - February
+  #   - March
+  #   - April
+  #   - May
+  #   - June
+  #   - July
+  #   - August
+  #   - September
+  #   - October
+  #   - November
+  #   - December
+settings:
+  current_date: '2026-01-22'
+  render_command:
+    design:
+    locale:
+    typst_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.md
+    html_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.html
+    png_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords: []
