@@ -7,19 +7,25 @@
 - GitHub: [wussh](https://github.com/wussh)
 
 
-# Summary
+# Professional Summary
 Results-driven DevOps Engineer with 2+ years of experience in designing, implementing, and maintaining scalable infrastructure solutions. Expertise in Kubernetes, CI/CD pipelines, cloud platforms (AWS, GCP, Azure), and automation tools. Proven track record of optimizing deployment processes, reducing downtime, and enhancing system reliability. Passionate about infrastructure as code, monitoring, and DevSecOps practices.
 
-# Education
-## **University of Trunojoyo**, Bachelor of Engineering in Mechatronic Engineering -- Madura, IndonesiaSept 2020 – July 2024
+# Core Skills
+**Languages:** Golang, Python, YAML, Bash/Shell
 
-- GPA: 3.47/4.00
+**DevOps Tools:** Jenkins, Docker, Kubernetes, Ansible, Terraform, GitLab CI, FluxCD, Argo CD, Helm
 
-- Relevant Coursework: Cloud Computing, Software Engineering, Operating Systems
+**Cloud Platforms:** AWS (EC2, S3, RDS, EKS, IAM), GCP (GKE, Compute Engine), Azure (AKS, VMs)
 
+**Monitoring & Logging:** Grafana, Prometheus, Loki, ELK Stack, Alertmanager
 
+**Databases:** PostgreSQL, MySQL, MongoDB
 
-# Experience
+**Service Mesh & Ingress:** Istio, Traefik, NGINX Ingress, Cert-Manager
+
+**Areas of Interest:** DevOps, MLOps, DevSecOps, FinOps, Cloud Computing, Containerization, Automation, Network Security
+
+# Professional Experience
 ## **DevOps Engineer**, Bank Rakyat Indonesia -- Jakarta, Indonesia
 
 Jan 2026 – present
@@ -281,17 +287,20 @@ Custom Helm chart for standardized backend application deployments in Kubernetes
 
 
 
-# Skills
-**Languages:** Golang, Python, YAML, Bash/Shell
+# Certifications
+- DBS Foundation Coding Camp - DevOps Engineering (2023)
 
-**DevOps Tools:** Jenkins, Docker, Kubernetes, Ansible, Terraform, GitLab CI, FluxCD, Argo CD, Helm
+- IDCamp - DevOps Engineering Bootcamp (2023)
 
-**Cloud Platforms:** AWS (EC2, S3, RDS, EKS, IAM), GCP (GKE, Compute Engine), Azure (AKS, VMs)
+- BTech Academy - Linux & DevOps Bootcamp (2022)
 
-**Monitoring & Logging:** Grafana, Prometheus, Loki, ELK Stack, Alertmanager
+- Alterra Academy - Backend Development with Golang (2022)
 
-**Databases:** PostgreSQL, MySQL, MongoDB
+# Education
+## **University of Trunojoyo**, Bachelor of Engineering in Mechatronic Engineering -- Madura, IndonesiaSept 2020 – July 2024
 
-**Service Mesh & Ingress:** Istio, Traefik, NGINX Ingress, Cert-Manager
+- GPA: 3.47/4.00
 
-**Areas of Interest:** DevOps, MLOps, DevSecOps, FinOps, Cloud Computing, Containerization, Automation, Network Security
+- Relevant Coursework: Cloud Computing, Software Engineering, Operating Systems
+
+

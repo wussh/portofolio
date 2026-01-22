@@ -96,30 +96,27 @@
 )
 
 
-== Summary
+== Professional Summary
 
 Results-driven DevOps Engineer with 2+ years of experience in designing, implementing, and maintaining scalable infrastructure solutions. Expertise in Kubernetes, CI\/CD pipelines, cloud platforms (AWS, GCP, Azure), and automation tools. Proven track record of optimizing deployment processes, reducing downtime, and enhancing system reliability. Passionate about infrastructure as code, monitoring, and DevSecOps practices.
 
-== Education
+== Core Skills
 
-#education-entry(
-  [
-    #strong[University of Trunojoyo], Bachelor of Engineering in Mechatronic Engineering -- Madura, Indonesia
+#strong[Languages:] Golang, Python, YAML, Bash\/Shell
 
-  ],
-  [
-    Sept 2020 – July 2024
+#strong[DevOps Tools:] Jenkins, Docker, Kubernetes, Ansible, Terraform, GitLab CI, FluxCD, Argo CD, Helm
 
-  ],
-  main-column-second-row: [
-    - GPA: 3.47\/4.00
+#strong[Cloud Platforms:] AWS (EC2, S3, RDS, EKS, IAM), GCP (GKE, Compute Engine), Azure (AKS, VMs)
 
-    - Relevant Coursework: Cloud Computing, Software Engineering, Operating Systems
+#strong[Monitoring & Logging:] Grafana, Prometheus, Loki, ELK Stack, Alertmanager
 
-  ],
-)
+#strong[Databases:] PostgreSQL, MySQL, MongoDB
 
-== Experience
+#strong[Service Mesh & Ingress:] Istio, Traefik, NGINX Ingress, Cert-Manager
+
+#strong[Areas of Interest:] DevOps, MLOps, DevSecOps, FinOps, Cloud Computing, Containerization, Automation, Network Security
+
+== Professional Experience
 
 #regular-entry(
   [
@@ -488,18 +485,31 @@ Results-driven DevOps Engineer with 2+ years of experience in designing, impleme
   ],
 )
 
-== Skills
+== Certifications
 
-#strong[Languages:] Golang, Python, YAML, Bash\/Shell
+- DBS Foundation Coding Camp - DevOps Engineering (2023)
 
-#strong[DevOps Tools:] Jenkins, Docker, Kubernetes, Ansible, Terraform, GitLab CI, FluxCD, Argo CD, Helm
+- IDCamp - DevOps Engineering Bootcamp (2023)
 
-#strong[Cloud Platforms:] AWS (EC2, S3, RDS, EKS, IAM), GCP (GKE, Compute Engine), Azure (AKS, VMs)
+- BTech Academy - Linux & DevOps Bootcamp (2022)
 
-#strong[Monitoring & Logging:] Grafana, Prometheus, Loki, ELK Stack, Alertmanager
+- Alterra Academy - Backend Development with Golang (2022)
 
-#strong[Databases:] PostgreSQL, MySQL, MongoDB
+== Education
 
-#strong[Service Mesh & Ingress:] Istio, Traefik, NGINX Ingress, Cert-Manager
+#education-entry(
+  [
+    #strong[University of Trunojoyo], Bachelor of Engineering in Mechatronic Engineering -- Madura, Indonesia
 
-#strong[Areas of Interest:] DevOps, MLOps, DevSecOps, FinOps, Cloud Computing, Containerization, Automation, Network Security
+  ],
+  [
+    Sept 2020 – July 2024
+
+  ],
+  main-column-second-row: [
+    - GPA: 3.47\/4.00
+
+    - Relevant Coursework: Cloud Computing, Software Engineering, Operating Systems
+
+  ],
+)

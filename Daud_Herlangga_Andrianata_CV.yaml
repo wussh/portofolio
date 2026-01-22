@@ -14,21 +14,24 @@ cv:
       username: wussh
   custom_connections:
   sections:
-    summary:
+    Professional Summary:
       - Results-driven DevOps Engineer with 2+ years of experience in designing, implementing, and maintaining scalable infrastructure solutions. Expertise in Kubernetes, CI/CD pipelines, cloud platforms (AWS, GCP, Azure), and automation tools. Proven track record of optimizing deployment processes, reducing downtime, and enhancing system reliability. Passionate about infrastructure as code, monitoring, and DevSecOps practices.
-    education:
-      - institution: University of Trunojoyo
-        area: Mechatronic Engineering
-        degree: Bachelor of Engineering
-        date:
-        start_date: 2020-09
-        end_date: 2024-07
-        location: Madura, Indonesia
-        summary:
-        highlights:
-          - 'GPA: 3.47/4.00'
-          - 'Relevant Coursework: Cloud Computing, Software Engineering, Operating Systems'
-    experience:
+    Core Skills:
+      - label: Languages
+        details: Golang, Python, YAML, Bash/Shell
+      - label: DevOps Tools
+        details: Jenkins, Docker, Kubernetes, Ansible, Terraform, GitLab CI, FluxCD, Argo CD, Helm
+      - label: Cloud Platforms
+        details: AWS (EC2, S3, RDS, EKS, IAM), GCP (GKE, Compute Engine), Azure (AKS, VMs)
+      - label: Monitoring & Logging
+        details: Grafana, Prometheus, Loki, ELK Stack, Alertmanager
+      - label: Databases
+        details: PostgreSQL, MySQL, MongoDB
+      - label: Service Mesh & Ingress
+        details: Istio, Traefik, NGINX Ingress, Cert-Manager
+      - label: Areas of Interest
+        details: DevOps, MLOps, DevSecOps, FinOps, Cloud Computing, Containerization, Automation, Network Security
+    Professional Experience:
       - company: Bank Rakyat Indonesia
         position: DevOps Engineer
         date:
@@ -124,7 +127,7 @@ cv:
           - Implemented authentication, authorization, and security best practices for production-ready applications
           - Applied testing methodologies (unit, integration) and performance profiling for application optimization
           - Gained experience in cloud deployment, scalability patterns, and modern backend development practices
-    projects:
+    Projects:
       - name: '[Azure Kubeflow Deployment](https://github.com/wussh/azure-kubeflow-vm)'
         date:
         start_date: 2024-01
@@ -207,21 +210,23 @@ cv:
           - Reduced deployment complexity with consistent application configurations
           - Templated Kubernetes manifests with configurable values.yaml for customization
           - Technologies - Helm, Kubernetes, YAML, Ingress, Deployment, Service
-    skills:
-      - label: Languages
-        details: Golang, Python, YAML, Bash/Shell
-      - label: DevOps Tools
-        details: Jenkins, Docker, Kubernetes, Ansible, Terraform, GitLab CI, FluxCD, Argo CD, Helm
-      - label: Cloud Platforms
-        details: AWS (EC2, S3, RDS, EKS, IAM), GCP (GKE, Compute Engine), Azure (AKS, VMs)
-      - label: Monitoring & Logging
-        details: Grafana, Prometheus, Loki, ELK Stack, Alertmanager
-      - label: Databases
-        details: PostgreSQL, MySQL, MongoDB
-      - label: Service Mesh & Ingress
-        details: Istio, Traefik, NGINX Ingress, Cert-Manager
-      - label: Areas of Interest
-        details: DevOps, MLOps, DevSecOps, FinOps, Cloud Computing, Containerization, Automation, Network Security
+    Certifications:
+      - bullet: DBS Foundation Coding Camp - DevOps Engineering (2023)
+      - bullet: IDCamp - DevOps Engineering Bootcamp (2023)
+      - bullet: BTech Academy - Linux & DevOps Bootcamp (2022)
+      - bullet: Alterra Academy - Backend Development with Golang (2022)
+    Education:
+      - institution: University of Trunojoyo
+        area: Mechatronic Engineering
+        degree: Bachelor of Engineering
+        date:
+        start_date: 2020-09
+        end_date: 2024-07
+        location: Madura, Indonesia
+        summary:
+        highlights:
+          - 'GPA: 3.47/4.00'
+          - 'Relevant Coursework: Cloud Computing, Software Engineering, Operating Systems'
 design:
   theme: engineeringresumes
   # page:
