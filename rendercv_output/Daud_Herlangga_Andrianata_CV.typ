@@ -98,23 +98,35 @@
 
 == Professional Summary
 
-Results-driven DevOps Engineer with 2+ years of experience in designing, implementing, and maintaining scalable infrastructure solutions. Expertise in Kubernetes, CI\/CD pipelines, cloud platforms (AWS, GCP, Azure), and automation tools. Proven track record of optimizing deployment processes, reducing downtime, and enhancing system reliability. Passionate about infrastructure as code, monitoring, and DevSecOps practices.
+DevOps Engineer with hands-on experience operating Kubernetes-based platforms, CI\/CD pipelines, and cloud infrastructure in production environments across fintech and SaaS companies. Specialized in GitOps, observability, and cloud security automation. Proven track record of optimizing deployment processes, reducing downtime, and enhancing system reliability through infrastructure as code and DevSecOps practices.
 
 == Core Skills
 
-#strong[Languages & Scripting:] Golang, Python, Bash\/Shell, YAML
+Cloud Infrastructure Design
 
-#strong[Container & Orchestration:] Docker, Kubernetes, Helm, Karpenter, FluxCD, Argo CD
+Kubernetes-based Workload Orchestration
 
-#strong[CI\/CD & Automation:] Jenkins, GitLab CI, Terraform, Ansible, GitHub Actions
+Infrastructure Automation (IaC)
 
-#strong[Cloud Platforms:] AWS, GCP, Azure, Cloudflare
+CI\/CD Pipeline Engineering
 
-#strong[Monitoring & Observability:] Grafana, Prometheus, Loki, Tempo, ELK Stack, Alertmanager, OpenTelemetry
+Observability & Incident Analysis
 
-#strong[Security & Networking:] Trivy, Falco, Harbor, Tailscale, HashiCorp Vault, HSM, AWS KMS, Istio, Traefik, NGINX Ingress, Cert-Manager
+Cloud Security & IAM
 
-#strong[Databases & Middleware:] PostgreSQL, MySQL, MongoDB, RabbitMQ, Kafka, Kong, Chaos Mesh
+Distributed Systems Operations
+
+High Availability & Scalability
+
+Site Reliability Engineering (SRE)
+
+== Primary Stack (Production)
+
+AWS (EC2, S3, RDS, EKS, IAM, KMS), Kubernetes, Docker, Helm, Terraform, Ansible, GitLab CI, Jenkins, Prometheus, Grafana, Loki, Tempo, HashiCorp Vault, Kong API Gateway, FluxCD, RabbitMQ, PostgreSQL, Golang, Python, Bash
+
+== Secondary Stack (Exposure)
+
+Azure, GCP, Cloudflare, Argo CD, GitHub Actions, ELK Stack, OpenTelemetry, Istio, Traefik, NGINX Ingress, Cert-Manager, Trivy, Falco, Harbor, Tailscale, Chaos Mesh, Karpenter, Kafka, MySQL, MongoDB
 
 == Professional Experience
 
@@ -128,7 +140,11 @@ Results-driven DevOps Engineer with 2+ years of experience in designing, impleme
 
   ],
   main-column-second-row: [
-    - Full-time position in financial services sector
+    #summary[Technologies: Kubernetes, Docker, Terraform, AWS, Jenkins, GitLab CI, Prometheus, Grafana]
+
+    - Supporting CI\/CD and Kubernetes platforms for internal banking applications in financial services sector
+
+    - Contributing to cloud infrastructure migration, monitoring systems, and DevOps automation initiatives
 
   ],
 )
@@ -143,37 +159,17 @@ Results-driven DevOps Engineer with 2+ years of experience in designing, impleme
 
   ],
   main-column-second-row: [
-    - Managed 5+ bare-metal Kubernetes clusters serving internal and client applications, ensuring 99.9\% uptime through proactive maintenance, storage optimization, and network configuration
+    #summary[Technologies: Kubernetes, Docker, Helm, GitLab CI, FluxCD, Prometheus, Grafana, Loki, Tempo, Alertmanager, OpenTelemetry, RabbitMQ, Kafka, Kong API Gateway, Trivy, Falco, HashiCorp Vault, HSM, Harbor, Chaos Mesh, Tailscale, Cloudflare, Ansible, Traefik, Python, Bash]
 
-    - Designed and maintained CI\/CD pipelines using GitLab CI for Unity-based, microservices, and frontend applications, reducing deployment time by 40\% and ensuring consistent releases across environments
+    - Operated 5+ bare-metal Kubernetes clusters hosting internal and customer-facing workloads with 99.9\% availability
 
-    - Implemented comprehensive monitoring stack (Prometheus, Grafana, Loki, Tempo, Alertmanager) with OpenTelemetry for distributed tracing, enabling proactive detection of issues and reducing incident response time by 60\%
+    - Built GitLab CI\/CD pipelines for Unity-based, microservices, and frontend applications, reducing deployment time by 40\%
 
-    - Deployed and managed message broker infrastructure using RabbitMQ and Kafka for event-driven microservices architecture, ensuring reliable asynchronous communication
+    - Applied GitOps principles with FluxCD to manage 50+ Helm releases, improving deployment traceability and reducing configuration drift
 
-    - Implemented Kong API Gateway for centralized API management, rate limiting, and authentication, improving API security and performance monitoring
+    - Implemented enterprise security infrastructure with HashiCorp Vault (HSM integration), Harbor registry, Trivy\/Falco scanning, and Kong API Gateway
 
-    - Integrated container security scanning with Trivy in CI\/CD pipelines and deployed Falco for runtime security monitoring, identifying and remediating vulnerabilities before production deployment
-
-    - Implemented HashiCorp Vault with HSM integration for centralized secrets management and encryption key storage, ensuring secure credential rotation and compliance with security standards
-
-    - Implemented Harbor as private container registry with vulnerability scanning and image signing, improving supply chain security and compliance
-
-    - Conducted chaos engineering experiments with Chaos Mesh to validate system resilience, identifying weaknesses and improving fault tolerance across microservices
-
-    - Established secure networking with Tailscale VPN and Cloudflare for zero-trust architecture, improving remote access security and DDoS protection
-
-    - Deployed and optimized AI\/ML inference services on Kubernetes, achieving 30\% improvement in model loading times through resource tuning and autoscaling
-
-    - Applied GitOps principles with FluxCD to manage 50+ Helm releases, improving deployment traceability and reducing configuration drift by 80\%
-
-    - Automated infrastructure provisioning with Ansible, standardizing server setup across 20+ nodes and reducing manual configuration errors
-
-    - Established multi-tenant environments with Traefik ingress, TLS encryption, and resource quotas, enhancing security and stability for multi-project deployments
-
-    - Led incident response for production issues, resolving critical problems within SLA windows and documenting post-mortems for continuous improvement
-
-    - Collaborated with development teams to optimize container images, reducing size by 50\% and improving deployment efficiency
+    - Automated infrastructure provisioning with Ansible across 20+ nodes and optimized AI\/ML inference services, achieving 30\% improvement in model loading times
 
   ],
 )
@@ -188,132 +184,30 @@ Results-driven DevOps Engineer with 2+ years of experience in designing, impleme
 
   ],
   main-column-second-row: [
-    - Supported DevOps operations for high-traffic e-commerce platform, improving deployment reliability for 15+ microservices
+    #summary[Technologies: Jenkins, Docker, Kubernetes (EKS), Kong API Gateway, Karpenter, HashiCorp Vault, AWS (EC2, S3, RDS, IAM, KMS), Terraform, Golang, Java]
 
-    - Built and maintained Jenkins CI\/CD pipelines (Freestyle & Declarative), automating build-test-deploy cycles for Golang, Java, and mobile applications
+    - Built and maintained Jenkins CI\/CD pipelines (Freestyle & Declarative) for Golang, Java, and mobile applications, optimizing through parallelization and caching to cut deployment time from 45 to 25 minutes
 
-    - Containerized legacy applications with Docker and orchestrated deployments on EKS, reducing environment inconsistencies by 70\%
+    - Containerized legacy applications with Docker and orchestrated deployments on EKS, reducing environment inconsistencies by 70\% while maintaining 95\% deployment success rate for 15+ microservices
 
-    - Deployed Kong API Gateway on EKS for microservices API management, implementing rate limiting and authentication policies to improve API reliability
+    - Deployed Kong API Gateway and implemented Karpenter for just-in-time node provisioning on EKS, reducing cluster costs by 35\% through efficient compute resource scaling
 
-    - Implemented Karpenter for just-in-time node provisioning on EKS, reducing cluster costs by 35\% through efficient compute resource scaling
+    - Implemented HashiCorp Vault on EKS integrated with AWS KMS for secure secrets management with dynamic credentials and automated rotation policies for databases and cloud services
 
-    - Deployed HashiCorp Vault on EKS integrated with AWS KMS for secure secrets management, implementing dynamic credentials and automated rotation policies for databases and cloud services
-
-    - Managed AWS infrastructure (EC2, S3, RDS, IAM, KMS), provisioning resources for dev\/staging environments and optimizing costs by 25\%
-
-    - Optimized Jenkins pipelines through parallelization and caching, cutting average deployment time from 45 to 25 minutes
-
-    - Developed Terraform modules for standardized AWS resource provisioning, reducing setup time by 60\% and ensuring compliance
-
-    - Troubleshot build failures and deployment issues in collaboration with backend and QA teams, maintaining 95\% deployment success rate
-
-    - Documented infrastructure processes and CI\/CD workflows, enabling knowledge transfer and team scalability
+    - Developed Terraform modules for standardized AWS infrastructure (EC2, S3, RDS, IAM, KMS) provisioning, reducing setup time by 60\% and optimizing costs by 25\%
 
   ],
 )
 
-#regular-entry(
-  [
-    #strong[DevOps Bootcamp Participant], DBS Foundation Coding Camp -- Remote
+== Professional Training
 
-  ],
-  [
-    June 2023 – Dec 2023
+- DBS Foundation Coding Camp — DevOps Engineering (2023)
 
-  ],
-  main-column-second-row: [
-    #summary[Intensive DevOps Training Program]
+- IDCamp — DevOps Engineering Bootcamp (2023)
 
-    - Implemented end-to-end CI\/CD pipelines using Jenkins, Docker, and Kubernetes, automating software delivery processes
+- BTech Academy — Linux & DevOps Bootcamp (2022)
 
-    - Deployed and managed containerized applications on AWS infrastructure, gaining hands-on experience with cloud-native technologies
-
-    - Configured monitoring and logging solutions with Prometheus, Grafana, and Loki for real-time system observability
-
-    - Collaborated on team projects applying Infrastructure as Code principles and best practices for scalable deployments
-
-    - Developed proficiency in container orchestration, network security, and automated testing methodologies
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[DevOps Bootcamp Participant], IDCamp -- Remote
-
-  ],
-  [
-    Nov 2022 – Jan 2023
-
-  ],
-  main-column-second-row: [
-    #summary[DevOps Engineering Bootcamp]
-
-    - Built CI\/CD pipelines integrating Jenkins, Docker, and Kubernetes for automated application deployment
-
-    - Provisioned and managed GCP infrastructure using Terraform, implementing Infrastructure as Code practices
-
-    - Configured monitoring dashboards with Grafana and Prometheus for system performance tracking and alerting
-
-    - Developed automation scripts for infrastructure management and security hardening
-
-    - Gained practical experience in container orchestration, cloud deployment, and DevOps toolchains
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Linux & DevOps Bootcamp Participant], BTech Academy -- Remote
-
-  ],
-  [
-    Sept 2022 – Nov 2022
-
-  ],
-  main-column-second-row: [
-    #summary[Focused Training in Linux Administration, Ansible, and Docker]
-
-    - Completed intensive training in Linux system administration, mastering server configuration and security best practices
-
-    - Implemented Ansible playbooks for automated server provisioning and configuration management across multiple environments
-
-    - Containerized applications using Docker, managing deployment pipelines and troubleshooting containerized workloads
-
-    - Developed shell scripts for system automation and monitoring, improving operational efficiency
-
-    - Applied DevOps principles to collaborative projects, focusing on infrastructure automation and reliability
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Backend Developer Bootcamp Participant], Alterra Academy -- Remote
-
-  ],
-  [
-    Feb 2022 – July 2022
-
-  ],
-  main-column-second-row: [
-    #summary[Backend Development with Golang - Independent Campus Program]
-
-    - Developed RESTful APIs and backend services using Golang, implementing concurrent programming with Goroutines and Channels
-
-    - Integrated applications with PostgreSQL and NoSQL databases, ensuring data consistency and performance optimization
-
-    - Containerized Golang applications with Docker and deployed to Kubernetes clusters on AWS infrastructure
-
-    - Implemented authentication, authorization, and security best practices for production-ready applications
-
-    - Applied testing methodologies (unit, integration) and performance profiling for application optimization
-
-    - Gained experience in cloud deployment, scalability patterns, and modern backend development practices
-
-  ],
-)
+- Alterra Academy — Backend Development with Golang (2022)
 
 == Projects
 
@@ -323,7 +217,7 @@ Results-driven DevOps Engineer with 2+ years of experience in designing, impleme
 
   ],
   [
-    Jan 2024 – present
+    Jan 2024
 
   ],
   main-column-second-row: [
@@ -332,8 +226,6 @@ Results-driven DevOps Engineer with 2+ years of experience in designing, impleme
     - Achieved complete ML platform deployment in under 30 minutes with idempotent deployment process
 
     - Implemented Terraform for Azure infrastructure automation with robust setup script and progress tracking
-
-    - Configured MicroK8s with Juju for Kubeflow orchestration and automated data disk mounting for persistence
 
     - Technologies
 
@@ -348,7 +240,7 @@ Results-driven DevOps Engineer with 2+ years of experience in designing, impleme
 
   ],
   [
-    Jan 2024 – present
+    Jan 2024
 
   ],
   main-column-second-row: [
@@ -357,8 +249,6 @@ Results-driven DevOps Engineer with 2+ years of experience in designing, impleme
     - Fully automated infrastructure deployment with secure cluster configuration and proper NSG rules
 
     - Implemented modular Terraform configuration with GitOps integration using Flux CD
-
-    - Configured advanced traffic management with Istio and comprehensive security with mTLS
 
     - Technologies
 
@@ -369,46 +259,23 @@ Results-driven DevOps Engineer with 2+ years of experience in designing, impleme
 
 #regular-entry(
   [
-    #strong[#link("https://github.com/wussh/SurfSense-ci-cd")[SurfSense CI\/CD]]
+    #strong[#link("https://github.com/wussh/flux-new")[FluxCD GitOps Implementation]]
 
   ],
   [
-    Jan 2024
+    Jan 2023
 
   ],
   main-column-second-row: [
-    #summary[A comprehensive CI\/CD pipeline for automating deployments of SurfSense using GitHub Actions, Cloudflare Tunnel, and systemd services]
+    #summary[Comprehensive GitOps implementation using FluxCD to manage Kubernetes cluster configurations and deployments]
 
-    - Reduced deployment time with zero manual intervention and enhanced security through Cloudflare Tunnel
+    - Established fully automated deployment pipeline with version-controlled infrastructure
 
-    - Implemented GitHub Actions workflow automation with systemd for service management
-
-    - Technologies
-
-      - GitHub Actions, Cloudflare Tunnel, SSH, systemd, Ubuntu
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[#link("https://github.com/wussh/fider-ci-cd")[Fider CI\/CD Pipeline]]
-
-  ],
-  [
-    Jan 2024
-
-  ],
-  main-column-second-row: [
-    #summary[A robust CI\/CD pipeline for Fider implementing automated build, test, and deployment workflows using Docker containers and GitHub Actions]
-
-    - Reduced deployment errors and accelerated release cycles through automation
-
-    - Multi-stage GitHub Actions workflow with Docker containerization for consistency
+    - Structured repository with base, clusters, and infrastructure directories using Kustomization
 
     - Technologies
 
-      - GitHub Actions, Docker, Go, Node.js, PostgreSQL, SSH
+      - FluxCD, Kubernetes, GitOps, NGINX Ingress, Cert-Manager, Kustomize
 
   ],
 )
@@ -455,52 +322,6 @@ Results-driven DevOps Engineer with 2+ years of experience in designing, impleme
     - Technologies
 
       - Terraform, AWS, EC2, IAM, SSH, Security Groups
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[#link("https://github.com/wussh/flux-new")[FluxCD GitOps Implementation]]
-
-  ],
-  [
-    Jan 2023
-
-  ],
-  main-column-second-row: [
-    #summary[Comprehensive GitOps implementation using FluxCD to manage Kubernetes cluster configurations and deployments]
-
-    - Established fully automated deployment pipeline with version-controlled infrastructure
-
-    - Structured repository with base, clusters, and infrastructure directories using Kustomization
-
-    - Technologies
-
-      - FluxCD, Kubernetes, GitOps, NGINX Ingress, Cert-Manager, Kustomize
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[#link("https://github.com/wussh/backend-app")[Helm Chart for Backend Deployment]]
-
-  ],
-  [
-    Jan 2023
-
-  ],
-  main-column-second-row: [
-    #summary[Custom Helm chart for standardized backend application deployments in Kubernetes with templated configurations]
-
-    - Reduced deployment complexity with consistent application configurations
-
-    - Templated Kubernetes manifests with configurable values.yaml for customization
-
-    - Technologies
-
-      - Helm, Kubernetes, YAML, Ingress, Deployment, Service
 
   ],
 )
