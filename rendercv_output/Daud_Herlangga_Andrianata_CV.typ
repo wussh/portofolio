@@ -112,7 +112,7 @@ DevOps Engineer with hands-on experience operating Kubernetes-based platforms, C
 
   ],
   main-column-second-row: [
-    #summary[Technologies: Kubernetes, Docker, Terraform, AWS, Bamboo, Prometheus, Grafana]
+    #summary[Technologies: Kubernetes, Docker, Bamboo, ELK]
 
     - Leading migration initiative from VM-based infrastructure to containerized Kubernetes platform for banking applications
 

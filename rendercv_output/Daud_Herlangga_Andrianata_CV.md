@@ -15,7 +15,7 @@ DevOps Engineer with hands-on experience operating Kubernetes-based platforms, C
 
 Jan 2026 – present
 
-Technologies: Kubernetes, Docker, Terraform, AWS, Bamboo, Prometheus, Grafana
+Technologies: Kubernetes, Docker, Bamboo, ELK
 
 - Leading migration initiative from VM-based infrastructure to containerized Kubernetes platform for banking applications
 

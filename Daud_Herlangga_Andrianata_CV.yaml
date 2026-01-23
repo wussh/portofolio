@@ -23,7 +23,7 @@ cv:
         start_date: 2026-01
         end_date: present
         location: Jakarta, Indonesia
-        summary: 'Technologies: Kubernetes, Docker, Terraform, AWS, Bamboo, Prometheus, Grafana'
+        summary: 'Technologies: Kubernetes, Docker, Bamboo, ELK'
         highlights:
           - Leading migration initiative from VM-based infrastructure to containerized Kubernetes platform for banking applications
           - Designing and implementing end-to-end CI/CD pipelines using Bamboo for automated build, test, and deployment workflows
