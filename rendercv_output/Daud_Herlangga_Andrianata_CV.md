@@ -10,31 +10,6 @@
 # Professional Summary
 DevOps Engineer with hands-on experience operating Kubernetes-based platforms, CI/CD pipelines, and cloud infrastructure in production environments across fintech and SaaS companies. Specialized in GitOps, observability, and cloud security automation. Proven track record of optimizing deployment processes, reducing downtime, and enhancing system reliability through infrastructure as code and DevSecOps practices.
 
-# Core Skills
-Cloud Infrastructure Design
-
-Kubernetes-based Workload Orchestration
-
-Infrastructure Automation (IaC)
-
-CI/CD Pipeline Engineering
-
-Observability & Incident Analysis
-
-Cloud Security & IAM
-
-Distributed Systems Operations
-
-High Availability & Scalability
-
-Site Reliability Engineering (SRE)
-
-# Primary Stack (Production)
-AWS (EC2, S3, RDS, EKS, IAM, KMS), Kubernetes, Docker, Helm, Terraform, Ansible, GitLab CI, Jenkins, Prometheus, Grafana, Loki, Tempo, HashiCorp Vault, Kong API Gateway, FluxCD, RabbitMQ, PostgreSQL, Golang, Python, Bash
-
-# Secondary Stack (Exposure)
-Azure, GCP, Cloudflare, Argo CD, GitHub Actions, ELK Stack, OpenTelemetry, Istio, Traefik, NGINX Ingress, Cert-Manager, Trivy, Falco, Harbor, Tailscale, Chaos Mesh, Karpenter, Kafka, MySQL, MongoDB
-
 # Professional Experience
 ## **DevOps Engineer**, Bank Rakyat Indonesia -- Jakarta, Indonesia
 
@@ -173,6 +148,25 @@ Infrastructure as Code implementation using Terraform to automate EC2 instance d
   - Terraform, AWS, EC2, IAM, SSH, Security Groups
 
 
+
+# Core Skills
+- Cloud Infrastructure Design
+
+- Kubernetes-based Workload Orchestration
+
+- Infrastructure Automation (IaC)
+
+- CI/CD Pipeline Engineering
+
+- Observability & Incident Analysis
+
+- Cloud Security & IAM
+
+- Distributed Systems Operations
+
+- High Availability & Scalability
+
+- Site Reliability Engineering (SRE)
 
 # Certifications
 - DBS Foundation Coding Camp - DevOps Engineering (2023)
