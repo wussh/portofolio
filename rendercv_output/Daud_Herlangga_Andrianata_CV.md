@@ -15,11 +15,13 @@ DevOps Engineer with hands-on experience operating Kubernetes-based platforms, C
 
 Jan 2026 – present
 
-Technologies: Kubernetes, Docker, Terraform, AWS, Jenkins, GitLab CI, Prometheus, Grafana
+Technologies: Kubernetes, Docker, Terraform, AWS, Bamboo, Prometheus, Grafana
 
-- Supporting CI/CD and Kubernetes platforms for internal banking applications in financial services sector
+- Leading migration initiative from VM-based infrastructure to containerized Kubernetes platform for banking applications
 
-- Contributing to cloud infrastructure migration, monitoring systems, and DevOps automation initiatives
+- Designing and implementing end-to-end CI/CD pipelines using Bamboo for automated build, test, and deployment workflows
+
+- Architecting infrastructure and DevOps automation strategies for financial services workloads
 
 
 
