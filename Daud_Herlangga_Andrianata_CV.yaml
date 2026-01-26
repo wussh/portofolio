@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
 cv:
   name: Daud Herlangga Andrianata
-  headline: DevOps Engineer
+  headline: DevOps Engineer | Cloud & Kubernetes Automation
   location: Jakarta, Indonesia
   email: andrianta.321@gmail.com
   photo:
@@ -15,7 +15,7 @@ cv:
   custom_connections:
   sections:
     Professional Summary:
-      - DevOps Engineer with hands-on experience operating Kubernetes-based platforms, CI/CD pipelines, and cloud infrastructure in production environments across fintech and SaaS companies. Specialized in GitOps, observability, and cloud security automation. Proven track record of optimizing deployment processes, reducing downtime, and enhancing system reliability through infrastructure as code and DevSecOps practices.
+      - DevOps Engineer with hands-on experience operating Kubernetes-based platforms, CI/CD pipelines, and cloud infrastructure in production environments across fintech and SaaS companies. Specializing in GitOps, Kubernetes, and cloud security automation for fintech and SaaS platforms serving production workloads with high availability and compliance requirements. Proven track record of optimizing deployment processes, reducing downtime, and enhancing system reliability through infrastructure as code and DevSecOps practices.
     Professional Experience:
       - company: Bank Rakyat Indonesia
         position: DevOps Engineer
@@ -39,10 +39,10 @@ cv:
           - Operated 5+ bare-metal Kubernetes clusters hosting internal and customer-facing workloads with 99.9% availability
           - Built GitLab CI/CD pipelines for Unity-based, microservices, and frontend applications, reducing deployment time by 40%
           - Applied GitOps principles with FluxCD to manage 50+ Helm releases, improving deployment traceability and reducing configuration drift
-          - Implemented enterprise security infrastructure with HashiCorp Vault (HSM integration), Harbor registry, Trivy/Falco scanning, and Kong API Gateway
+          - Implemented enterprise security platform (HashiCorp Vault + HSM + Harbor) securing 50+ microservices and meeting internal compliance requirements, with Trivy/Falco scanning and Kong API Gateway for zero-trust networking
           - Automated infrastructure provisioning with Ansible across 20+ nodes and optimized AI/ML inference services, achieving 30% improvement in model loading times
       - company: Evermos
-        position: DevOps Engineer (Internship)
+        position: DevOps Engineer - Evermos (Internship Program)
         date:
         start_date: 2024-03
         end_date: 2024-08
@@ -80,46 +80,15 @@ cv:
           - Fully automated infrastructure deployment with secure cluster configuration and proper NSG rules
           - Implemented modular Terraform configuration with GitOps integration using Flux CD
           - Technologies - Terraform, Azure, K3s, Istio, Flux CD, Traefik, Linux, GitOps
-      - name: '[FluxCD GitOps Implementation](https://github.com/wussh/flux-new)'
-        date: '2023'
-        start_date:
-        end_date:
-        location:
-        summary: Comprehensive GitOps implementation using FluxCD to manage Kubernetes cluster configurations and deployments
-        highlights:
-          - Established fully automated deployment pipeline with version-controlled infrastructure
-          - Structured repository with base, clusters, and infrastructure directories using Kustomization
-          - Technologies - FluxCD, Kubernetes, GitOps, NGINX Ingress, Cert-Manager, Kustomize
-      - name: '[Kubernetes Cluster GCP Setup](https://github.com/wussh/argocd)'
-        date: '2023'
-        start_date:
-        end_date:
-        location:
-        summary: Comprehensive implementation of a Kubernetes cluster on Google Cloud Platform with NGINX Ingress Controller, Cert-Manager, and Argo CD using Helm
-        highlights:
-          - Achieved fully automated certificate management with Let's Encrypt integration
-          - Established GitOps workflow with Argo CD for declarative configuration as code
-          - Technologies - Kubernetes, Argo CD, NGINX Ingress, Cert-Manager, Helm, Let's Encrypt, GCP
-      - name: '[Terraform AWS EC2 Deployment](https://github.com/wussh/terraform-aws)'
-        date: '2023'
-        start_date:
-        end_date:
-        location:
-        summary: Infrastructure as Code implementation using Terraform to automate EC2 instance deployment on AWS with security configurations and SSH access setup
-        highlights:
-          - Reduced deployment time from hours to minutes with consistent and repeatable infrastructure
-          - Implemented Terraform modules with variable files for environment separation
-          - Technologies - Terraform, AWS, EC2, IAM, SSH, Security Groups
+
     Core Skills:
-      - bullet: Cloud Infrastructure Design
-      - bullet: Kubernetes-based Workload Orchestration
-      - bullet: Infrastructure Automation (IaC)
-      - bullet: CI/CD Pipeline Engineering
-      - bullet: Observability & Incident Analysis
-      - bullet: Cloud Security & IAM
-      - bullet: Distributed Systems Operations
-      - bullet: High Availability & Scalability
-      - bullet: Site Reliability Engineering (SRE)
+      - bullet: '**Core Platforms:** Kubernetes (EKS, bare-metal), Terraform, GitLab CI, Jenkins, Bamboo, FluxCD, Helm, Docker'
+      - bullet: '**Cloud:** AWS (EC2, RDS, IAM, KMS, S3), Azure (VM, Storage, Networking)'
+      - bullet: '**Observability:** Prometheus, Grafana, Loki, Tempo, Alertmanager, OpenTelemetry, ELK Stack'
+      - bullet: '**Security:** HashiCorp Vault, HSM, AWS KMS, Trivy, Falco, Harbor, Kong API Gateway'
+      - bullet: '**Automation:** Ansible, Python, Bash, Infrastructure as Code (IaC)'
+      - bullet: '**Messaging & Streaming:** RabbitMQ, Kafka'
+      - bullet: '**Networking:** Traefik, NGINX Ingress, Tailscale, Cloudflare'
     Certifications:
       - bullet: DBS Foundation Coding Camp - DevOps Engineering (2023)
       - bullet: IDCamp - DevOps Engineering Bootcamp (2023)
@@ -132,7 +101,7 @@ cv:
         date:
         start_date: 2020-09
         end_date: 2024-07
-        location: Madura, Indonesia
+        location: Indonesia
         summary:
         highlights:
           - 'GPA: 3.47/4.00'

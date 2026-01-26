@@ -85,7 +85,7 @@
 
 = Daud Herlangga Andrianata
 
-  #headline([DevOps Engineer])
+  #headline([DevOps Engineer | Cloud & Kubernetes Automation])
 
 #connections(
   [Jakarta, Indonesia],
@@ -98,7 +98,7 @@
 
 == Professional Summary
 
-DevOps Engineer with hands-on experience operating Kubernetes-based platforms, CI\/CD pipelines, and cloud infrastructure in production environments across fintech and SaaS companies. Specialized in GitOps, observability, and cloud security automation. Proven track record of optimizing deployment processes, reducing downtime, and enhancing system reliability through infrastructure as code and DevSecOps practices.
+DevOps Engineer with hands-on experience operating Kubernetes-based platforms, CI\/CD pipelines, and cloud infrastructure in production environments across fintech and SaaS companies. Specializing in GitOps, Kubernetes, and cloud security automation for fintech and SaaS platforms serving production workloads with high availability and compliance requirements. Proven track record of optimizing deployment processes, reducing downtime, and enhancing system reliability through infrastructure as code and DevSecOps practices.
 
 == Professional Experience
 
@@ -141,7 +141,7 @@ DevOps Engineer with hands-on experience operating Kubernetes-based platforms, C
 
     - Applied GitOps principles with FluxCD to manage 50+ Helm releases, improving deployment traceability and reducing configuration drift
 
-    - Implemented enterprise security infrastructure with HashiCorp Vault (HSM integration), Harbor registry, Trivy\/Falco scanning, and Kong API Gateway
+    - Implemented enterprise security platform (HashiCorp Vault + HSM + Harbor) securing 50+ microservices and meeting internal compliance requirements, with Trivy\/Falco scanning and Kong API Gateway for zero-trust networking
 
     - Automated infrastructure provisioning with Ansible across 20+ nodes and optimized AI\/ML inference services, achieving 30\% improvement in model loading times
 
@@ -150,7 +150,7 @@ DevOps Engineer with hands-on experience operating Kubernetes-based platforms, C
 
 #regular-entry(
   [
-    #strong[DevOps Engineer (Internship)], Evermos -- Bandung, Indonesia
+    #strong[DevOps Engineer - Evermos (Internship Program)], Evermos -- Bandung, Indonesia
 
   ],
   [
@@ -231,94 +231,21 @@ DevOps Engineer with hands-on experience operating Kubernetes-based platforms, C
   ],
 )
 
-#regular-entry(
-  [
-    #strong[#link("https://github.com/wussh/flux-new")[FluxCD GitOps Implementation]]
-
-  ],
-  [
-    Jan 2023
-
-  ],
-  main-column-second-row: [
-    #summary[Comprehensive GitOps implementation using FluxCD to manage Kubernetes cluster configurations and deployments]
-
-    - Established fully automated deployment pipeline with version-controlled infrastructure
-
-    - Structured repository with base, clusters, and infrastructure directories using Kustomization
-
-    - Technologies
-
-      - FluxCD, Kubernetes, GitOps, NGINX Ingress, Cert-Manager, Kustomize
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[#link("https://github.com/wussh/argocd")[Kubernetes Cluster GCP Setup]]
-
-  ],
-  [
-    Jan 2023
-
-  ],
-  main-column-second-row: [
-    #summary[Comprehensive implementation of a Kubernetes cluster on Google Cloud Platform with NGINX Ingress Controller, Cert-Manager, and Argo CD using Helm]
-
-    - Achieved fully automated certificate management with Let's Encrypt integration
-
-    - Established GitOps workflow with Argo CD for declarative configuration as code
-
-    - Technologies
-
-      - Kubernetes, Argo CD, NGINX Ingress, Cert-Manager, Helm, Let's Encrypt, GCP
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[#link("https://github.com/wussh/terraform-aws")[Terraform AWS EC2 Deployment]]
-
-  ],
-  [
-    Jan 2023
-
-  ],
-  main-column-second-row: [
-    #summary[Infrastructure as Code implementation using Terraform to automate EC2 instance deployment on AWS with security configurations and SSH access setup]
-
-    - Reduced deployment time from hours to minutes with consistent and repeatable infrastructure
-
-    - Implemented Terraform modules with variable files for environment separation
-
-    - Technologies
-
-      - Terraform, AWS, EC2, IAM, SSH, Security Groups
-
-  ],
-)
-
 == Core Skills
 
-- Cloud Infrastructure Design
+- #strong[Core Platforms:] Kubernetes (EKS, bare-metal), Terraform, GitLab CI, Jenkins, Bamboo, FluxCD, Helm, Docker
 
-- Kubernetes-based Workload Orchestration
+- #strong[Cloud:] AWS (EC2, RDS, IAM, KMS, S3), Azure (VM, Storage, Networking)
 
-- Infrastructure Automation (IaC)
+- #strong[Observability:] Prometheus, Grafana, Loki, Tempo, Alertmanager, OpenTelemetry, ELK Stack
 
-- CI\/CD Pipeline Engineering
+- #strong[Security:] HashiCorp Vault, HSM, AWS KMS, Trivy, Falco, Harbor, Kong API Gateway
 
-- Observability & Incident Analysis
+- #strong[Automation:] Ansible, Python, Bash, Infrastructure as Code (IaC)
 
-- Cloud Security & IAM
+- #strong[Messaging & Streaming:] RabbitMQ, Kafka
 
-- Distributed Systems Operations
-
-- High Availability & Scalability
-
-- Site Reliability Engineering (SRE)
+- #strong[Networking:] Traefik, NGINX Ingress, Tailscale, Cloudflare
 
 == Certifications
 
@@ -334,7 +261,7 @@ DevOps Engineer with hands-on experience operating Kubernetes-based platforms, C
 
 #education-entry(
   [
-    #strong[University of Trunojoyo], Bachelor of Engineering in Mechatronic Engineering -- Madura, Indonesia
+    #strong[University of Trunojoyo], Bachelor of Engineering in Mechatronic Engineering -- Indonesia
 
   ],
   [
