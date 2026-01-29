@@ -33,7 +33,7 @@ Technologies: Kubernetes, Docker, Helm, GitLab CI, FluxCD, Prometheus, Grafana, 
 
 - Operated 5+ bare-metal Kubernetes clusters hosting internal and customer-facing workloads with 99.9% availability
 
-- Built GitLab CI/CD pipelines for Unity-based, microservices, and frontend applications, reducing deployment time by 40%
+- Built GitLab C  I/CD pipelines for Unity-based, microservices, and frontend applications, reducing deployment time by 40%
 
 - Applied GitOps principles with FluxCD to manage 50+ Helm releases, improving deployment traceability and reducing configuration drift
 

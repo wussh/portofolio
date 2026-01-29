@@ -1,10 +1,14 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+
+# PHOTO TOGGLE: Set to 'photo.jpeg' to show photo, or leave empty ('') to hide
+# To show photo: photo: photo.jpeg
+# To hide photo: photo:
 cv:
   name: Daud Herlangga Andrianata
   headline: DevOps Engineer | Cloud & Kubernetes Automation
   location: Jakarta, Indonesia
   email: andrianta.321@gmail.com
-  photo:
+  photo: 
   phone: '+62 85172178338'
   website:
   social_networks:
@@ -37,7 +41,7 @@ cv:
         summary: 'Technologies: Kubernetes, Docker, Helm, GitLab CI, FluxCD, Prometheus, Grafana, Loki, Tempo, Alertmanager, OpenTelemetry, RabbitMQ, Kafka, Kong API Gateway, Trivy, Falco, HashiCorp Vault, HSM, Harbor, Chaos Mesh, Tailscale, Cloudflare, Ansible, Traefik, Python, Bash'
         highlights:
           - Operated 5+ bare-metal Kubernetes clusters hosting internal and customer-facing workloads with 99.9% availability
-          - Built GitLab CI/CD pipelines for Unity-based, microservices, and frontend applications, reducing deployment time by 40%
+          - Built GitLab C  I/CD pipelines for Unity-based, microservices, and frontend applications, reducing deployment time by 40%
           - Applied GitOps principles with FluxCD to manage 50+ Helm releases, improving deployment traceability and reducing configuration drift
           - Implemented enterprise security platform (HashiCorp Vault + HSM + Harbor) securing 50+ microservices and meeting internal compliance requirements, with Trivy/Falco scanning and Kong API Gateway for zero-trust networking
           - Automated infrastructure provisioning with Ansible across 20+ nodes and optimized AI/ML inference services, achieving 30% improvement in model loading times
