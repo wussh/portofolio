@@ -1,12 +1,14 @@
 // Import the rendercv function and all the refactored components
-#import "@preview/rendercv:0.1.0": *
+#import "@preview/rendercv:0.3.0": *
 
 // Apply the rendercv template with custom configuration
 #show: rendercv.with(
   name: "Daud Herlangga Andrianata",
+  title: "Daud Herlangga Andrianata - CV",
   footer: context { [#emph[Daud Herlangga Andrianata -- #str(here().page())\/#str(counter(page).final().first())]] },
   top-note: [ #emph[Last updated in Jan 2026] ],
   locale-catalog-language: "en",
+  text-direction: ltr,
   page-size: "us-letter",
   page-top-margin: 0.7in,
   page-bottom-margin: 0.7in,
@@ -67,6 +69,7 @@
   entries-space-between-columns: 0.1cm,
   entries-allow-page-break: false,
   entries-short-second-row: false,
+  entries-degree-width: 1cm,
   entries-summary-space-left: 0cm,
   entries-summary-space-above: 0.08cm,
   entries-highlights-bullet:  text(13pt, [•], baseline: -0.6pt) ,
@@ -112,13 +115,21 @@ DevOps Engineer with hands-on experience operating Kubernetes-based platforms, C
 
   ],
   main-column-second-row: [
-    #summary[Technologies: Kubernetes, Docker, Bamboo, ELK]
+    #summary[Technologies: Jenkins (mobile), Bamboo (.NET backend), Fastlane, Docker, Kubernetes, App Store Connect API, Firebase App Distribution, SonarQube, ELK Stack]
 
-    - Leading migration initiative from VM-based infrastructure to containerized Kubernetes platform for banking applications
+    - Architected and implemented end-to-end mobile CI\/CD pipelines using #strong[Jenkins] with Fastlane for #strong[BRImo iOS] — BRI's flagship mobile banking application — targeting international markets including #strong[Taiwan] and #strong[Timor Leste], covering automated build, code signing, QA distribution, and App Store submission workflows
 
-    - Designing and implementing end-to-end CI\/CD pipelines using Bamboo for automated build, test, and deployment workflows
+    - Engineered multi-environment iOS signing automation with Fastlane Match via Jenkins pipelines, managing provisioning profiles and certificates across development, staging, and production environments for multi-region App Store accounts (TW & TL), reducing release preparation time by #strong[60\%]
 
-    - Architecting infrastructure and DevOps automation strategies for financial services workloads
+    - Designed multi-region deployment strategy with environment-specific configurations (bundle IDs, API endpoints, feature flags) to support #strong[Taiwan] and #strong[Timor Leste] App Store releases from a single codebase, ensuring compliance with regional banking regulations
+
+    - Integrated automated mobile QA gates into Jenkins pipelines — unit tests, UI tests (XCTest), and static code analysis (SonarQube) — achieving #strong[85\%+] test coverage on critical payment and authentication modules
+
+    - Built and maintained #strong[Bamboo] CI\/CD pipelines for #strong[.NET] backend services powering BRImo's API layer, automating build, test, artifact packaging, and deployment workflows with environment promotion gates across dev, staging, and production
+
+    - Implemented Firebase App Distribution for internal testing and TestFlight automation via App Store Connect API for UAT cycles, reducing manual distribution overhead by #strong[70\%] and shortening QA feedback loops from days to hours
+
+    - Configured centralized observability with ELK Stack for pipeline and application log aggregation, enabling real-time monitoring of mobile build jobs, .NET service health, and production incident detection across all regions
 
   ],
 )
@@ -203,7 +214,7 @@ DevOps Engineer with hands-on experience operating Kubernetes-based platforms, C
 
     - Technologies
 
-      - Terraform, Azure, Kubeflow, MicroK8s, Juju, Kubernetes, Shell Scripting, ML\/AI
+    - Terraform, Azure, Kubeflow, MicroK8s, Juju, Kubernetes, Shell Scripting, ML\/AI
 
   ],
 )
@@ -226,7 +237,7 @@ DevOps Engineer with hands-on experience operating Kubernetes-based platforms, C
 
     - Technologies
 
-      - Terraform, Azure, K3s, Istio, Flux CD, Traefik, Linux, GitOps
+    - Terraform, Azure, K3s, Istio, Flux CD, Traefik, Linux, GitOps
 
   ],
 )
@@ -234,6 +245,10 @@ DevOps Engineer with hands-on experience operating Kubernetes-based platforms, C
 == Core Skills
 
 - #strong[Core Platforms:] Kubernetes (EKS, bare-metal), Terraform, GitLab CI, Jenkins, Bamboo, FluxCD, Helm, Docker
+
+- #strong[Mobile CI\/CD:] Jenkins, Fastlane, Fastlane Match, App Store Connect API, Firebase App Distribution, TestFlight, XCTest, SonarQube
+
+- #strong[Backend CI\/CD (.NET):] Bamboo, Docker, artifact packaging, environment promotion gates
 
 - #strong[Cloud:] AWS (EC2, RDS, IAM, KMS, S3), Azure (VM, Storage, Networking)
 

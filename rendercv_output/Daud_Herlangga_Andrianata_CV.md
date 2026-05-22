@@ -15,13 +15,21 @@ DevOps Engineer with hands-on experience operating Kubernetes-based platforms, C
 
 Jan 2026 – present
 
-Technologies: Kubernetes, Docker, Bamboo, ELK
+Technologies: Jenkins (mobile), Bamboo (.NET backend), Fastlane, Docker, Kubernetes, App Store Connect API, Firebase App Distribution, SonarQube, ELK Stack
 
-- Leading migration initiative from VM-based infrastructure to containerized Kubernetes platform for banking applications
+- Architected and implemented end-to-end mobile CI/CD pipelines using **Jenkins** with Fastlane for **BRImo iOS** — BRI's flagship mobile banking application — targeting international markets including **Taiwan** and **Timor Leste**, covering automated build, code signing, QA distribution, and App Store submission workflows
 
-- Designing and implementing end-to-end CI/CD pipelines using Bamboo for automated build, test, and deployment workflows
+- Engineered multi-environment iOS signing automation with Fastlane Match via Jenkins pipelines, managing provisioning profiles and certificates across development, staging, and production environments for multi-region App Store accounts (TW & TL), reducing release preparation time by **60%**
 
-- Architecting infrastructure and DevOps automation strategies for financial services workloads
+- Designed multi-region deployment strategy with environment-specific configurations (bundle IDs, API endpoints, feature flags) to support **Taiwan** and **Timor Leste** App Store releases from a single codebase, ensuring compliance with regional banking regulations
+
+- Integrated automated mobile QA gates into Jenkins pipelines — unit tests, UI tests (XCTest), and static code analysis (SonarQube) — achieving **85%+** test coverage on critical payment and authentication modules
+
+- Built and maintained **Bamboo** CI/CD pipelines for **.NET** backend services powering BRImo's API layer, automating build, test, artifact packaging, and deployment workflows with environment promotion gates across dev, staging, and production
+
+- Implemented Firebase App Distribution for internal testing and TestFlight automation via App Store Connect API for UAT cycles, reducing manual distribution overhead by **70%** and shortening QA feedback loops from days to hours
+
+- Configured centralized observability with ELK Stack for pipeline and application log aggregation, enabling real-time monitoring of mobile build jobs, .NET service health, and production incident detection across all regions
 
 
 
@@ -106,6 +114,10 @@ A comprehensive infrastructure as code solution for deploying a lightweight Kube
 # Core Skills
 - **Core Platforms:** Kubernetes (EKS, bare-metal), Terraform, GitLab CI, Jenkins, Bamboo, FluxCD, Helm, Docker
 
+- **Mobile CI/CD:** Jenkins, Fastlane, Fastlane Match, App Store Connect API, Firebase App Distribution, TestFlight, XCTest, SonarQube
+
+- **Backend CI/CD (.NET):** Bamboo, Docker, artifact packaging, environment promotion gates
+
 - **Cloud:** AWS (EC2, RDS, IAM, KMS, S3), Azure (VM, Storage, Networking)
 
 - **Observability:** Prometheus, Grafana, Loki, Tempo, Alertmanager, OpenTelemetry, ELK Stack
@@ -128,7 +140,8 @@ A comprehensive infrastructure as code solution for deploying a lightweight Kube
 - Alterra Academy - Backend Development with Golang (2022)
 
 # Education
-## **University of Trunojoyo**, Bachelor of Engineering in Mechatronic Engineering -- IndonesiaSept 2020 – July 2024
+## **University of Trunojoyo**, Bachelor of Engineering in Mechatronic Engineering -- Indonesia
+Sept 2020 – July 2024
 
 - GPA: 3.47/4.00
 
