@@ -6,7 +6,7 @@
   name: "Daud Herlangga Andrianata",
   title: "Daud Herlangga Andrianata - CV",
   footer: context { [#emph[Daud Herlangga Andrianata -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Jan 2026] ],
+  top-note: [ #emph[Last updated in May 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,7 +80,7 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 1,
+    month: 5,
     day: 22,
   ),
 )
@@ -117,17 +117,17 @@ DevOps Engineer with hands-on experience operating Kubernetes-based platforms, C
   main-column-second-row: [
     #summary[Technologies: Jenkins (mobile), Bamboo (.NET backend), Fastlane, Docker, Kubernetes, App Store Connect API, Firebase App Distribution, SonarQube, ELK Stack]
 
-    - Architected and implemented end-to-end mobile CI\/CD pipelines using #strong[Jenkins] with Fastlane for #strong[BRImo iOS] — BRI's flagship mobile banking application — targeting international markets including #strong[Taiwan] and #strong[Timor Leste], covering automated build, code signing, QA distribution, and App Store submission workflows
+    - Architected and implemented end-to-end mobile CI\/CD pipelines using Jenkins with Fastlane for BRImo iOS — BRI's flagship mobile banking application — targeting international markets including Taiwan and Timor Leste, covering automated build, code signing, QA distribution, and App Store submission workflows
 
-    - Engineered multi-environment iOS signing automation with Fastlane Match via Jenkins pipelines, managing provisioning profiles and certificates across development, staging, and production environments for multi-region App Store accounts (TW & TL), reducing release preparation time by #strong[60\%]
+    - Engineered multi-environment iOS signing automation with Fastlane Match via Jenkins pipelines, managing provisioning profiles and certificates across development, staging, and production environments for multi-region App Store accounts (TW & TL), reducing release preparation time by 60\%
 
-    - Designed multi-region deployment strategy with environment-specific configurations (bundle IDs, API endpoints, feature flags) to support #strong[Taiwan] and #strong[Timor Leste] App Store releases from a single codebase, ensuring compliance with regional banking regulations
+    - Designed multi-region deployment strategy with environment-specific configurations (bundle IDs, API endpoints, feature flags) to support Taiwan and Timor Leste App Store releases from a single codebase, ensuring compliance with regional banking regulations
 
-    - Integrated automated mobile QA gates into Jenkins pipelines — unit tests, UI tests (XCTest), and static code analysis (SonarQube) — achieving #strong[85\%+] test coverage on critical payment and authentication modules
+    - Integrated automated mobile QA gates into Jenkins pipelines — unit tests, UI tests (XCTest), and static code analysis (SonarQube) — achieving 85\%+ test coverage on critical payment and authentication modules
 
-    - Built and maintained #strong[Bamboo] CI\/CD pipelines for #strong[.NET] backend services powering BRImo's API layer, automating build, test, artifact packaging, and deployment workflows with environment promotion gates across dev, staging, and production
+    - Built and maintained Bamboo CI\/CD pipelines for .NET backend services powering BRImo's API layer, automating build, test, artifact packaging, and deployment workflows with environment promotion gates across dev, staging, and production
 
-    - Implemented Firebase App Distribution for internal testing and TestFlight automation via App Store Connect API for UAT cycles, reducing manual distribution overhead by #strong[70\%] and shortening QA feedback loops from days to hours
+    - Implemented Firebase App Distribution for internal testing and TestFlight automation via App Store Connect API for UAT cycles, reducing manual distribution overhead by 70\% and shortening QA feedback loops from days to hours
 
     - Configured centralized observability with ELK Stack for pipeline and application log aggregation, enabling real-time monitoring of mobile build jobs, .NET service health, and production incident detection across all regions
 
