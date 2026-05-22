@@ -1,0 +1,66 @@
+name: Render CV
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "**_CV.yaml"      # triggers on any *_CV.yaml file change
+      - "**.yaml"         # also catches direct edits to any yaml
+  workflow_dispatch:       # allow manual trigger from GitHub UI
+
+permissions:
+  contents: write          # needed to push the rendered output back
+
+jobs:
+  render:
+    name: Render CV with RenderCV
+    runs-on: ubuntu-latest
+
+    steps:
+      # ── 1. Checkout ──────────────────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history so git push works cleanly
+
+      # ── 2. Set up Python ─────────────────────────────────────────────────────
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      # ── 3. Install RenderCV ──────────────────────────────────────────────────
+      - name: Install RenderCV
+        run: pip install "rendercv[full]"
+
+      # ── 4. Find the CV YAML and render it ────────────────────────────────────
+      - name: Render CV
+        run: |
+          # Find the first *_CV.yaml in the repo root
+          CV_FILE=$(find . -maxdepth 1 -name "*_CV.yaml" | head -n 1)
+
+          if [ -z "$CV_FILE" ]; then
+            echo "❌  No *_CV.yaml file found in the repository root."
+            exit 1
+          fi
+
+          echo "✅  Rendering: $CV_FILE"
+          rendercv render "$CV_FILE"
+
+      # ── 5. Commit & push rendered output ─────────────────────────────────────
+      - name: Commit rendered output
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add rendercv_output/
+
+          # Only commit when there are actual changes
+          if git diff --cached --quiet; then
+            echo "ℹ️   No changes to commit — output is already up to date."
+          else
+            git commit -m "chore: auto-render CV [skip ci]"
+            git push
+          fi
